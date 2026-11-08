@@ -1,0 +1,4811 @@
+[
+ {
+  "seq": 1,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.7569635,
+  "type": "swarm.created",
+  "data": {
+   "query": "Find a pharmacy within 5 miles that has children's amoxicillin in stock right now",
+   "mode": "simulated",
+   "intent": {
+    "raw_query": "Find a pharmacy within 5 miles that has children's amoxicillin in stock right now",
+    "item": "children's amoxicillin",
+    "category": "pharmacy",
+    "kind": "product",
+    "place_query": "pharmacy",
+    "urgency": "now",
+    "priority": "balanced",
+    "radius_miles": 5.0,
+    "summary": "Find children's amoxicillin within 5 miles"
+   },
+   "origin": {
+    "lat": 37.7749,
+    "lng": -122.4194
+   },
+   "targets": [
+    {
+     "id": "t1",
+     "name": "Giant Pharmacy",
+     "address": "1843 Mill Rd",
+     "phone": "+12025550107",
+     "lat": 37.76887,
+     "lng": -122.41149,
+     "distance_miles": 0.6,
+     "open_now": true,
+     "rating": 4.6,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t2",
+     "name": "Corner Apothecary",
+     "address": "8485 Mill Rd",
+     "phone": "+12025550106",
+     "lat": 37.76688,
+     "lng": -122.40416,
+     "distance_miles": 1.0,
+     "open_now": true,
+     "rating": 4.4,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t3",
+     "name": "Sunrise Pharmacy",
+     "address": "3939 Main St",
+     "phone": "+12025550117",
+     "lat": 37.78195,
+     "lng": -122.43539,
+     "distance_miles": 1.0,
+     "open_now": true,
+     "rating": 4.9,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t4",
+     "name": "Family Care Pharmacy",
+     "address": "6596 Park Blvd",
+     "phone": "+12025550110",
+     "lat": 37.77367,
+     "lng": -122.44132,
+     "distance_miles": 1.2,
+     "open_now": false,
+     "rating": 4.0,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t5",
+     "name": "Maple Health Pharmacy",
+     "address": "3538 Park Blvd",
+     "phone": "+12025550116",
+     "lat": 37.79221,
+     "lng": -122.42112,
+     "distance_miles": 1.2,
+     "open_now": true,
+     "rating": 3.7,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t6",
+     "name": "Walgreens",
+     "address": "7790 Washington Ave",
+     "phone": "+12025550101",
+     "lat": 37.78766,
+     "lng": -122.4019,
+     "distance_miles": 1.3,
+     "open_now": true,
+     "rating": 3.9,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t7",
+     "name": "Bluebird Pharmacy",
+     "address": "9787 5th St",
+     "phone": "+12025550115",
+     "lat": 37.79084,
+     "lng": -122.40358,
+     "distance_miles": 1.4,
+     "open_now": true,
+     "rating": 3.7,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t8",
+     "name": "Greenway Pharmacy",
+     "address": "9040 Washington Ave",
+     "phone": "+12025550102",
+     "lat": 37.7504,
+     "lng": -122.4222,
+     "distance_miles": 1.7,
+     "open_now": true,
+     "rating": 3.7,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t9",
+     "name": "Rite Aid",
+     "address": "3124 Elm St",
+     "phone": "+12025550113",
+     "lat": 37.78515,
+     "lng": -122.37741,
+     "distance_miles": 2.4,
+     "open_now": true,
+     "rating": 3.8,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t10",
+     "name": "Walgreens",
+     "address": "1169 Washington Ave",
+     "phone": "+12025550109",
+     "lat": 37.74348,
+     "lng": -122.44209,
+     "distance_miles": 2.5,
+     "open_now": true,
+     "rating": 3.8,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t11",
+     "name": "Safeway Pharmacy",
+     "address": "3023 Highland Ave",
+     "phone": "+12025550111",
+     "lat": 37.79341,
+     "lng": -122.46086,
+     "distance_miles": 2.6,
+     "open_now": false,
+     "rating": 4.6,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t12",
+     "name": "CVS Pharmacy",
+     "address": "9643 Mill Rd",
+     "phone": "+12025550100",
+     "lat": 37.77145,
+     "lng": -122.47783,
+     "distance_miles": 3.2,
+     "open_now": true,
+     "rating": 4.2,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t13",
+     "name": "Harris Teeter Pharmacy",
+     "address": "5867 Church St",
+     "phone": "+12025550104",
+     "lat": 37.74417,
+     "lng": -122.37316,
+     "distance_miles": 3.3,
+     "open_now": true,
+     "rating": 4.6,
+     "tier": "backup",
+     "source": "mock"
+    },
+    {
+     "id": "t14",
+     "name": "CarePlus Drugs",
+     "address": "5878 Mill Rd",
+     "phone": "+12025550103",
+     "lat": 37.81201,
+     "lng": -122.3785,
+     "distance_miles": 3.4,
+     "open_now": true,
+     "rating": 3.8,
+     "tier": "backup",
+     "source": "mock"
+    },
+    {
+     "id": "t15",
+     "name": "Walmart Pharmacy",
+     "address": "6532 Oak Ave",
+     "phone": "+12025550108",
+     "lat": 37.78567,
+     "lng": -122.49323,
+     "distance_miles": 4.1,
+     "open_now": true,
+     "rating": 3.9,
+     "tier": "backup",
+     "source": "mock"
+    },
+    {
+     "id": "t16",
+     "name": "CVS Pharmacy",
+     "address": "3352 Cedar Ln",
+     "phone": "+12025550105",
+     "lat": 37.73195,
+     "lng": -122.48374,
+     "distance_miles": 4.6,
+     "open_now": true,
+     "rating": 3.8,
+     "tier": "backup",
+     "source": "mock"
+    },
+    {
+     "id": "t17",
+     "name": "Costco Pharmacy",
+     "address": "2134 Maple Dr",
+     "phone": "+12025550112",
+     "lat": 37.83673,
+     "lng": -122.38817,
+     "distance_miles": 4.6,
+     "open_now": true,
+     "rating": 3.9,
+     "tier": "backup",
+     "source": "mock"
+    },
+    {
+     "id": "t18",
+     "name": "Target Pharmacy",
+     "address": "7994 Cedar Ln",
+     "phone": "+12025550114",
+     "lat": 37.76973,
+     "lng": -122.33359,
+     "distance_miles": 4.7,
+     "open_now": true,
+     "rating": 4.5,
+     "tier": "backup",
+     "source": "mock"
+    }
+   ]
+  }
+ },
+ {
+  "seq": 2,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.7652476,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_37baf217",
+   "target_id": "t1",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 3,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.7713325,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_37baf217",
+   "target_id": "t1",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 4,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.7739625,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_33f3bc05",
+   "target_id": "t2",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 5,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.7804012,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_37baf217",
+   "target_id": "t1",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 6,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.7870135,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_33f3bc05",
+   "target_id": "t2",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 7,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.7896225,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_37baf217",
+   "target_id": "t1",
+   "utterance_id": "c_37baf217:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. Could you check whether you have children's amoxicillin in stock right now?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 8,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.791472,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_2cf4d057",
+   "target_id": "t3",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 9,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.7946293,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_37baf217",
+   "target_id": "t1",
+   "utterance_id": "c_37baf217:u2",
+   "speaker": "business",
+   "text": "You've reached Giant Pharmacy. We can't",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 10,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.7947314,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_33f3bc05",
+   "target_id": "t2",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 11,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.7976034,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_37baf217",
+   "target_id": "t1",
+   "utterance_id": "c_37baf217:u2",
+   "speaker": "business",
+   "text": "You've reached Giant Pharmacy. We can't take your call right now, please",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 12,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.7976556,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_33f3bc05",
+   "target_id": "t2",
+   "utterance_id": "c_33f3bc05:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. Could you check whether you have children's amoxicillin in stock right now?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 13,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8013194,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_37baf217",
+   "target_id": "t1",
+   "utterance_id": "c_37baf217:u2",
+   "speaker": "business",
+   "text": "You've reached Giant Pharmacy. We can't take your call right now, please leave a message after the tone.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 14,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8028905,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_2cf4d057",
+   "target_id": "t3",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 15,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8048441,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7c0a05d3",
+   "target_id": "t4",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 16,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8076649,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_33f3bc05",
+   "target_id": "t2",
+   "utterance_id": "c_33f3bc05:u2",
+   "speaker": "business",
+   "text": "Let me look. We don't",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 17,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.807779,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_33f3bc05",
+   "target_id": "t2",
+   "utterance_id": "c_33f3bc05:u2",
+   "speaker": "business",
+   "text": "Let me look. We don't have children's amoxicillin, but we do",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 18,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8078678,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_33f3bc05",
+   "target_id": "t2",
+   "utterance_id": "c_33f3bc05:u2",
+   "speaker": "business",
+   "text": "Let me look. We don't have children's amoxicillin, but we do have the generic version for $23.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 19,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8184676,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_37baf217",
+   "target_id": "t1",
+   "state": "failed",
+   "role": "inquiry",
+   "reason": "Reached voicemail"
+  }
+ },
+ {
+  "seq": 20,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8261716,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7c0a05d3",
+   "target_id": "t4",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 21,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8289437,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_2cf4d057",
+   "target_id": "t3",
+   "state": "failed",
+   "role": "inquiry",
+   "reason": "No answer"
+  }
+ },
+ {
+  "seq": 22,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8305886,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 23,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.836254,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_33f3bc05",
+   "target_id": "t2",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 24,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8397114,
+  "type": "swarm.reroute",
+  "data": {
+   "from_call_id": "c_37baf217",
+   "from_target_id": "t1",
+   "to_target_id": "t13",
+   "to_call_id": "c_d32a2cdb",
+   "kind": "failed",
+   "reason": "Giant Pharmacy: Reached voicemail. Trying Harris Teeter Pharmacy",
+   "new_target": null
+  }
+ },
+ {
+  "seq": 25,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.848007,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7c0a05d3",
+   "target_id": "t4",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 26,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.850389,
+  "type": "swarm.reroute",
+  "data": {
+   "from_call_id": "c_2cf4d057",
+   "from_target_id": "t3",
+   "to_target_id": "t14",
+   "to_call_id": "c_2e4b8051",
+   "kind": "failed",
+   "reason": "Sunrise Pharmacy: No answer. Trying CarePlus Drugs",
+   "new_target": null
+  }
+ },
+ {
+  "seq": 27,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8522332,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 28,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8548853,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_c1ebb5bd",
+   "target_id": "t6",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 29,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8564649,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_33f3bc05",
+   "target_id": "t2",
+   "result": {
+    "available": "partial",
+    "item": "the generic version",
+    "price": 23.0,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [
+     "the generic version"
+    ],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": "Does not have exactly children's amoxicillin; offers the generic version",
+    "confidence": 0.85,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 30,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.861642,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d32a2cdb",
+   "target_id": "t13",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 31,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8655124,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7c0a05d3",
+   "target_id": "t4",
+   "utterance_id": "c_7c0a05d3:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. Could you check whether you have children's amoxicillin in stock right now?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 32,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8671477,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_2e4b8051",
+   "target_id": "t14",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 33,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.870201,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 34,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.871649,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_33f3bc05",
+   "target_id": "t2",
+   "utterance_id": "c_33f3bc05:u4",
+   "speaker": "agent",
+   "text": "Okay, thank you so much for your help. Take care!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 35,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.874932,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_c1ebb5bd",
+   "target_id": "t6",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 36,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8766925,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 37,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8792646,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7c0a05d3",
+   "target_id": "t4",
+   "utterance_id": "c_7c0a05d3:u2",
+   "speaker": "business",
+   "text": "Hi, sorry, we're closed",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 38,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8793623,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d32a2cdb",
+   "target_id": "t13",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 39,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8868556,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "utterance_id": "c_d82e5454:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. Could you check whether you have children's amoxicillin in stock right now?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 40,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8911197,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_2e4b8051",
+   "target_id": "t14",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 41,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8940067,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7c0a05d3",
+   "target_id": "t4",
+   "utterance_id": "c_7c0a05d3:u2",
+   "speaker": "business",
+   "text": "Hi, sorry, we're closed right now. We open",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 42,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8942535,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_c1ebb5bd",
+   "target_id": "t6",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 43,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.896996,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_33f3bc05",
+   "target_id": "t2",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 44,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8980985,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 45,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.8990579,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 46,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9002829,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "utterance_id": "c_d82e5454:u2",
+   "speaker": "business",
+   "text": "Yeah, hang",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 47,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9003818,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d32a2cdb",
+   "target_id": "t13",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 48,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.904746,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7c0a05d3",
+   "target_id": "t4",
+   "utterance_id": "c_7c0a05d3:u2",
+   "speaker": "business",
+   "text": "Hi, sorry, we're closed right now. We open again tomorrow at 8.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 49,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9086802,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_2e4b8051",
+   "target_id": "t14",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 50,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9113264,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c1ebb5bd",
+   "target_id": "t6",
+   "utterance_id": "c_c1ebb5bd:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. Could you check whether you have children's amoxicillin in stock right now?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 51,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9124029,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "Corner Apothecary doesn't have children's amoxicillin but offers the generic version at $23.00",
+   "source_call_id": "c_33f3bc05"
+  }
+ },
+ {
+  "seq": 52,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9134998,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "utterance_id": "c_d82e5454:u2",
+   "speaker": "business",
+   "text": "Yeah, hang on, let me",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 53,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9135299,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 54,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.914569,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d32a2cdb",
+   "target_id": "t13",
+   "utterance_id": "c_d32a2cdb:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. Could you check whether you have children's amoxicillin in stock right now?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 55,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9159627,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 56,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9174814,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_2aeb914e",
+   "target_id": "t9",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 57,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9191186,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7c0a05d3",
+   "target_id": "t4",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 58,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9242806,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e4b8051",
+   "target_id": "t14",
+   "utterance_id": "c_2e4b8051:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. Could you check whether you have children's amoxicillin in stock right now?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 59,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9304297,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c1ebb5bd",
+   "target_id": "t6",
+   "utterance_id": "c_c1ebb5bd:u2",
+   "speaker": "business",
+   "text": "Let me check... no,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 60,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9304988,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "utterance_id": "c_d82e5454:u2",
+   "speaker": "business",
+   "text": "Yeah, hang on, let me check the shelf.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 61,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9322827,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "utterance_id": "c_d527ff9c:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. Could you check whether you have children's amoxicillin in stock right now?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 62,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9336362,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d32a2cdb",
+   "target_id": "t13",
+   "utterance_id": "c_d32a2cdb:u2",
+   "speaker": "business",
+   "text": "Let me check... no,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 63,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9336886,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 64,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9349525,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_2aeb914e",
+   "target_id": "t9",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 65,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.936262,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 66,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9377925,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_7c0a05d3",
+   "target_id": "t4",
+   "result": {
+    "available": "no",
+    "item": "children's amoxicillin",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": true,
+    "notes": "Hi, sorry, we're closed right now.",
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 67,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9428508,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c1ebb5bd",
+   "target_id": "t6",
+   "utterance_id": "c_c1ebb5bd:u2",
+   "speaker": "business",
+   "text": "Let me check... no, we're out of children's amoxicillin",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 68,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9429052,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e4b8051",
+   "target_id": "t14",
+   "utterance_id": "c_2e4b8051:u2",
+   "speaker": "business",
+   "text": "Sorry, I",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 69,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9429557,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "utterance_id": "c_d82e5454:u3",
+   "speaker": "agent",
+   "text": "Mm-hm, take your time.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 70,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9429967,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d32a2cdb",
+   "target_id": "t13",
+   "utterance_id": "c_d32a2cdb:u2",
+   "speaker": "business",
+   "text": "Let me check... no, we're out of children's amoxicillin",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 71,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9430354,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "utterance_id": "c_d527ff9c:u2",
+   "speaker": "business",
+   "text": "Sure,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 72,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9430737,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "utterance_id": "c_746f8d0f:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. Could you check whether you have children's amoxicillin in stock right now?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 73,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9468982,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_2aeb914e",
+   "target_id": "t9",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 74,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.948302,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7c0a05d3",
+   "target_id": "t4",
+   "utterance_id": "c_7c0a05d3:u4",
+   "speaker": "agent",
+   "text": "Okay, no worries. Thanks so much for checking. Have a good one!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 75,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.949792,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c1ebb5bd",
+   "target_id": "t6",
+   "utterance_id": "c_c1ebb5bd:u2",
+   "speaker": "business",
+   "text": "Let me check... no, we're out of children's amoxicillin right now, sorry about that.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 76,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9519923,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e4b8051",
+   "target_id": "t14",
+   "utterance_id": "c_2e4b8051:u2",
+   "speaker": "business",
+   "text": "Sorry, I don't talk",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 77,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9520507,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "utterance_id": "c_d82e5454:u3",
+   "speaker": "agent",
+   "text": "Mm-hm, take your time.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 78,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9569137,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d32a2cdb",
+   "target_id": "t13",
+   "utterance_id": "c_d32a2cdb:u2",
+   "speaker": "business",
+   "text": "Let me check... no, we're out of children's amoxicillin right now, sorry about that.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 79,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9623597,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "utterance_id": "c_d527ff9c:u2",
+   "speaker": "business",
+   "text": "Sure, one",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 80,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9624298,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 81,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9657464,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_11e61fe7",
+   "target_id": "t11",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 82,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9678824,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "utterance_id": "c_746f8d0f:u2",
+   "speaker": "business",
+   "text": "Yeah, hang",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 83,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9680238,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2aeb914e",
+   "target_id": "t9",
+   "utterance_id": "c_2aeb914e:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. Could you check whether you have children's amoxicillin in stock right now?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 84,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.975038,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e4b8051",
+   "target_id": "t14",
+   "utterance_id": "c_2e4b8051:u2",
+   "speaker": "business",
+   "text": "Sorry, I don't talk to robots. Bye.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 85,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9797828,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_c1ebb5bd",
+   "target_id": "t6",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 86,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9819434,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "utterance_id": "c_d82e5454:u4",
+   "speaker": "business",
+   "text": "Okay yeah, we",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 87,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9819896,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7c0a05d3",
+   "target_id": "t4",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 88,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9855535,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "utterance_id": "c_d527ff9c:u2",
+   "speaker": "business",
+   "text": "Sure, one sec.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 89,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9873347,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d32a2cdb",
+   "target_id": "t13",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 90,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9892514,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "utterance_id": "c_746f8d0f:u2",
+   "speaker": "business",
+   "text": "Yeah, hang on, let me",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 91,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9893224,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 92,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.993413,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2aeb914e",
+   "target_id": "t9",
+   "utterance_id": "c_2aeb914e:u2",
+   "speaker": "business",
+   "text": "Hmm, no, we're out of children's",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 93,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.993449,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_11e61fe7",
+   "target_id": "t11",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 94,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9954112,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 95,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9972708,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e4b8051",
+   "target_id": "t14",
+   "utterance_id": "c_2e4b8051:u3",
+   "speaker": "agent",
+   "text": "No problem at all, sorry to bother you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 96,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9973805,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "utterance_id": "c_d82e5454:u4",
+   "speaker": "business",
+   "text": "Okay yeah, we do have children's amoxicillin.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 97,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004825.9974616,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_c1ebb5bd",
+   "target_id": "t6",
+   "result": {
+    "available": "no",
+    "item": "children's amoxicillin",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": "Let me check...",
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 98,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0031273,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "Family Care Pharmacy is closed, moving open-now businesses to the front of the queue",
+   "source_call_id": "c_7c0a05d3"
+  }
+ },
+ {
+  "seq": 99,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0053782,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "utterance_id": "c_d527ff9c:u3",
+   "speaker": "agent",
+   "text": "Mm-hm, take your time.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 100,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0054328,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "utterance_id": "c_746f8d0f:u2",
+   "speaker": "business",
+   "text": "Yeah, hang on, let me check the shelf.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 101,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.00845,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_d32a2cdb",
+   "target_id": "t13",
+   "result": {
+    "available": "no",
+    "item": "children's amoxicillin",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": "Let me check...",
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 102,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0100334,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "utterance_id": "c_1b7e4fd5:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. Could you check whether you have children's amoxicillin in stock right now?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 103,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0114622,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2aeb914e",
+   "target_id": "t9",
+   "utterance_id": "c_2aeb914e:u2",
+   "speaker": "business",
+   "text": "Hmm, no, we're out of children's amoxicillin. You could try Redwood Pharmacy on",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 104,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0115142,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e4b8051",
+   "target_id": "t14",
+   "utterance_id": "c_2e4b8051:u3",
+   "speaker": "agent",
+   "text": "No problem at all, sorry to bother you.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 105,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.013101,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "utterance_id": "c_d82e5454:u4",
+   "speaker": "business",
+   "text": "Okay yeah, we do have children's amoxicillin. We've got 3 left.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 106,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0153522,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_11e61fe7",
+   "target_id": "t11",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 107,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0181985,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 108,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0225062,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c1ebb5bd",
+   "target_id": "t6",
+   "utterance_id": "c_c1ebb5bd:u4",
+   "speaker": "agent",
+   "text": "Alright, thanks anyway for your time. Take care!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 109,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0244398,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "utterance_id": "c_d527ff9c:u3",
+   "speaker": "agent",
+   "text": "Mm-hm, take your time.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 110,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0277455,
+  "type": "swarm.reroute",
+  "data": {
+   "from_call_id": "c_7c0a05d3",
+   "from_target_id": "t4",
+   "to_target_id": "t15",
+   "to_call_id": "c_d162de5d",
+   "kind": "closed",
+   "reason": "Family Care Pharmacy is closed, redirecting to Walmart Pharmacy",
+   "new_target": null
+  }
+ },
+ {
+  "seq": 111,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.030611,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "utterance_id": "c_746f8d0f:u3",
+   "speaker": "agent",
+   "text": "Mm-hm, take your time.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 112,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0306637,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d32a2cdb",
+   "target_id": "t13",
+   "utterance_id": "c_d32a2cdb:u4",
+   "speaker": "agent",
+   "text": "Okay, no worries. Thanks so much for checking. Have a good one!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 113,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0352232,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2aeb914e",
+   "target_id": "t9",
+   "utterance_id": "c_2aeb914e:u2",
+   "speaker": "business",
+   "text": "Hmm, no, we're out of children's amoxicillin. You could try Redwood Pharmacy on Main Street, they usually carry it.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 114,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0372696,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "utterance_id": "c_1b7e4fd5:u2",
+   "speaker": "business",
+   "text": "Yeah, hang",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 115,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0373294,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "utterance_id": "c_d82e5454:u5",
+   "speaker": "agent",
+   "text": "Great, thank you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 116,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0373769,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_11e61fe7",
+   "target_id": "t11",
+   "utterance_id": "c_11e61fe7:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. Could you check whether you have children's amoxicillin in stock right now?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 117,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0424795,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_2e4b8051",
+   "target_id": "t14",
+   "state": "failed",
+   "role": "inquiry",
+   "reason": "Declined to talk to an AI assistant"
+  }
+ },
+ {
+  "seq": 118,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.046945,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 119,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.050133,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "utterance_id": "c_d527ff9c:u4",
+   "speaker": "business",
+   "text": "Yep, we",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 120,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.050167,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "utterance_id": "c_746f8d0f:u3",
+   "speaker": "agent",
+   "text": "Mm-hm, take your time.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 121,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0514848,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_c1ebb5bd",
+   "target_id": "t6",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 122,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.053239,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d162de5d",
+   "target_id": "t15",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 123,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0565867,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "utterance_id": "c_1b7e4fd5:u2",
+   "speaker": "business",
+   "text": "Yeah, hang on, let me",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 124,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0566812,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "utterance_id": "c_d82e5454:u5",
+   "speaker": "agent",
+   "text": "Great, thank you. And what's the price on that, and is it something you could hold for a couple of hours?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 125,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0570178,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_2aeb914e",
+   "target_id": "t9",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 126,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0604956,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_11e61fe7",
+   "target_id": "t11",
+   "utterance_id": "c_11e61fe7:u2",
+   "speaker": "business",
+   "text": "Hi, sorry, we're closed",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 127,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0605493,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d32a2cdb",
+   "target_id": "t13",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 128,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0641222,
+  "type": "swarm.reroute",
+  "data": {
+   "from_call_id": "c_2e4b8051",
+   "from_target_id": "t14",
+   "to_target_id": "t16",
+   "to_call_id": "c_f56c2c60",
+   "kind": "failed",
+   "reason": "CarePlus Drugs: Declined to talk to an AI assistant. Trying CVS Pharmacy",
+   "new_target": null
+  }
+ },
+ {
+  "seq": 129,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0679028,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. Could you check whether you have children's amoxicillin in stock right now?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 130,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0705392,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "utterance_id": "c_d527ff9c:u4",
+   "speaker": "business",
+   "text": "Yep, we do have children's",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 131,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0705976,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "utterance_id": "c_746f8d0f:u4",
+   "speaker": "business",
+   "text": "Okay yeah, we",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 132,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.070631,
+  "type": "swarm.reroute",
+  "data": {
+   "from_call_id": "c_c1ebb5bd",
+   "from_target_id": "t6",
+   "to_target_id": "t17",
+   "to_call_id": "c_7d0977f6",
+   "kind": "no_stock",
+   "reason": "Walgreens doesn't have it, trying Costco Pharmacy",
+   "new_target": null
+  }
+ },
+ {
+  "seq": 133,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0723207,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "utterance_id": "c_1b7e4fd5:u2",
+   "speaker": "business",
+   "text": "Yeah, hang on, let me check the shelf.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 134,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0745065,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "utterance_id": "c_d82e5454:u5",
+   "speaker": "agent",
+   "text": "Great, thank you. And what's the price on that, and is it something you could hold for a couple of hours?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 135,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0758905,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d162de5d",
+   "target_id": "t15",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 136,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.077488,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_11e61fe7",
+   "target_id": "t11",
+   "utterance_id": "c_11e61fe7:u2",
+   "speaker": "business",
+   "text": "Hi, sorry, we're closed right now. We open",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 137,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.078023,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_2aeb914e",
+   "target_id": "t9",
+   "result": {
+    "available": "no",
+    "item": "children's amoxicillin",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": "Redwood Pharmacy",
+    "referral_phone": null,
+    "closed": null,
+    "notes": "Hmm, no, we're out of children's amoxicillin.",
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 138,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0843945,
+  "type": "swarm.reroute",
+  "data": {
+   "from_call_id": "c_d32a2cdb",
+   "from_target_id": "t13",
+   "to_target_id": "t18",
+   "to_call_id": "c_a5bfa578",
+   "kind": "no_stock",
+   "reason": "Harris Teeter Pharmacy doesn't have it, trying Target Pharmacy",
+   "new_target": null
+  }
+ },
+ {
+  "seq": 139,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0864353,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_f56c2c60",
+   "target_id": "t16",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 140,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.089092,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "utterance_id": "c_d527ff9c:u4",
+   "speaker": "business",
+   "text": "Yep, we do have children's amoxicillin, 6 left.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 141,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.091191,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u2",
+   "speaker": "business",
+   "text": "Hold on, let",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 142,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0912406,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "utterance_id": "c_746f8d0f:u4",
+   "speaker": "business",
+   "text": "Okay yeah, we do have children's amoxicillin.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 143,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0912836,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 144,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0950565,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "utterance_id": "c_1b7e4fd5:u3",
+   "speaker": "agent",
+   "text": "Okay, I'll hold.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 145,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0951397,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "utterance_id": "c_d82e5454:u6",
+   "speaker": "business",
+   "text": "It's $8, and yes, we",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 146,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.095405,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_11e61fe7",
+   "target_id": "t11",
+   "utterance_id": "c_11e61fe7:u2",
+   "speaker": "business",
+   "text": "Hi, sorry, we're closed right now. We open again tomorrow at 8.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 147,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.0995746,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d162de5d",
+   "target_id": "t15",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 148,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.102323,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2aeb914e",
+   "target_id": "t9",
+   "utterance_id": "c_2aeb914e:u4",
+   "speaker": "agent",
+   "text": "Alright, thanks anyway for your time. Take care!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 149,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1034727,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 150,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1051905,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "utterance_id": "c_d527ff9c:u5",
+   "speaker": "agent",
+   "text": "Great, thank you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 151,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1052938,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u2",
+   "speaker": "business",
+   "text": "Hold on, let me go look",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 152,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1053598,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "utterance_id": "c_746f8d0f:u4",
+   "speaker": "business",
+   "text": "Okay yeah, we do have children's amoxicillin. We've got 4 left.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 153,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1104374,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_f56c2c60",
+   "target_id": "t16",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 154,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1143634,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "utterance_id": "c_1b7e4fd5:u3",
+   "speaker": "agent",
+   "text": "Okay, I'll hold.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 155,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1160986,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "utterance_id": "c_d82e5454:u6",
+   "speaker": "business",
+   "text": "It's $8, and yes, we can hold one for you",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 156,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1161532,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 157,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.119459,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_11e61fe7",
+   "target_id": "t11",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 158,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1209395,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d162de5d",
+   "target_id": "t15",
+   "utterance_id": "c_d162de5d:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. Could you check whether you have children's amoxicillin in stock right now?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 159,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1259408,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "utterance_id": "c_d527ff9c:u5",
+   "speaker": "agent",
+   "text": "Great, thank you. And what's the price on that, and is it something you could hold for a couple of hours?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 160,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1259923,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u2",
+   "speaker": "business",
+   "text": "Hold on, let me go look in the back.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 161,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1275768,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 162,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.129077,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "utterance_id": "c_746f8d0f:u5",
+   "speaker": "agent",
+   "text": "Great, thank you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 163,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1293306,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_2aeb914e",
+   "target_id": "t9",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 164,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.132967,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "utterance_id": "c_d82e5454:u6",
+   "speaker": "business",
+   "text": "It's $8, and yes, we can hold one for you for a couple of hours.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 165,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1362884,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "utterance_id": "c_1b7e4fd5:u4",
+   "speaker": "business",
+   "text": "Okay yeah, we",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 166,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1363368,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_f56c2c60",
+   "target_id": "t16",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 167,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.139541,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 168,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.140921,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_11e61fe7",
+   "target_id": "t11",
+   "result": {
+    "available": "no",
+    "item": "children's amoxicillin",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": true,
+    "notes": "Hi, sorry, we're closed right now.",
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 169,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1422033,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "utterance_id": "c_d527ff9c:u5",
+   "speaker": "agent",
+   "text": "Great, thank you. And what's the price on that, and is it something you could hold for a couple of hours?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 170,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.143611,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d162de5d",
+   "target_id": "t15",
+   "utterance_id": "c_d162de5d:u2",
+   "speaker": "business",
+   "text": "Let me check... no,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 171,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1436508,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u3",
+   "speaker": "agent",
+   "text": "Okay, I'll hold.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 172,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1436706,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "utterance_id": "c_746f8d0f:u5",
+   "speaker": "agent",
+   "text": "Great, thank you. And what's the price on that, and is it something you could hold for a couple of hours?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 173,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1436868,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 174,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1450953,
+  "type": "swarm.reroute",
+  "data": {
+   "from_call_id": "c_2aeb914e",
+   "from_target_id": "t9",
+   "to_target_id": "t19",
+   "to_call_id": "c_fe5aaffa",
+   "kind": "referral",
+   "reason": "Rite Aid recommended Redwood Pharmacy, calling them now",
+   "new_target": {
+    "id": "t19",
+    "name": "Redwood Pharmacy",
+    "address": "1188 Mill Rd",
+    "phone": "+12025550757",
+    "lat": 37.72965,
+    "lng": -122.34565,
+    "distance_miles": 5.1,
+    "open_now": true,
+    "rating": 4.2,
+    "tier": "backup",
+    "source": "referral"
+   }
+  }
+ },
+ {
+  "seq": 175,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1465983,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "utterance_id": "c_1b7e4fd5:u4",
+   "speaker": "business",
+   "text": "Okay yeah, we do have children's amoxicillin.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 176,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.146635,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 177,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.149378,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_f56c2c60",
+   "target_id": "t16",
+   "utterance_id": "c_f56c2c60:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. Could you check whether you have children's amoxicillin in stock right now?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 178,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.152267,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. Could you check whether you have children's amoxicillin in stock right now?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 179,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1535554,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_11e61fe7",
+   "target_id": "t11",
+   "utterance_id": "c_11e61fe7:u4",
+   "speaker": "agent",
+   "text": "Okay, no worries. Thanks so much for checking. Have a good one!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 180,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1551273,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "utterance_id": "c_d527ff9c:u6",
+   "speaker": "business",
+   "text": "It's $27. We can't",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 181,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1551683,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d162de5d",
+   "target_id": "t15",
+   "utterance_id": "c_d162de5d:u2",
+   "speaker": "business",
+   "text": "Let me check... no, we're out of children's amoxicillin",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 182,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1555982,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u3",
+   "speaker": "agent",
+   "text": "Okay, I'll hold.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 183,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1590092,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "utterance_id": "c_746f8d0f:u5",
+   "speaker": "agent",
+   "text": "Great, thank you. And what's the price on that, and is it something you could hold for a couple of hours?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 184,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.163586,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "utterance_id": "c_a5bfa578:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. Could you check whether you have children's amoxicillin in stock right now?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 185,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1650226,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "utterance_id": "c_1b7e4fd5:u4",
+   "speaker": "business",
+   "text": "Okay yeah, we do have children's amoxicillin. We've got 7 left.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 186,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1666017,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 187,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1679873,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "result": {
+    "available": "yes",
+    "item": "children's amoxicillin",
+    "price": 8.0,
+    "currency": "USD",
+    "quantity": 2,
+    "can_hold": true,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": null,
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 188,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1696017,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_f56c2c60",
+   "target_id": "t16",
+   "utterance_id": "c_f56c2c60:u2",
+   "speaker": "business",
+   "text": "You've reached CVS Pharmacy. We can't",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 189,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1696513,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u2",
+   "speaker": "business",
+   "text": "Hold on, let",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 190,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.169689,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "utterance_id": "c_d527ff9c:u6",
+   "speaker": "business",
+   "text": "It's $27. We can't hold items though, it's",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 191,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1697228,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d162de5d",
+   "target_id": "t15",
+   "utterance_id": "c_d162de5d:u2",
+   "speaker": "business",
+   "text": "Let me check... no, we're out of children's amoxicillin right now, sorry about that.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 192,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1731522,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u4",
+   "speaker": "business",
+   "text": "Still",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 193,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1732016,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_11e61fe7",
+   "target_id": "t11",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 194,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1760023,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "utterance_id": "c_746f8d0f:u6",
+   "speaker": "business",
+   "text": "It's $27, and yes, we",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 195,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1760316,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "utterance_id": "c_a5bfa578:u2",
+   "speaker": "business",
+   "text": "Yeah, hang",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 196,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1760516,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "utterance_id": "c_1b7e4fd5:u5",
+   "speaker": "agent",
+   "text": "Great, thank you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 197,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1760702,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "utterance_id": "c_d82e5454:u8",
+   "speaker": "agent",
+   "text": "Great, that's really helpful. Thanks for your time, bye now!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 198,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1771886,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_f56c2c60",
+   "target_id": "t16",
+   "utterance_id": "c_f56c2c60:u2",
+   "speaker": "business",
+   "text": "You've reached CVS Pharmacy. We can't take your call right now, please",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 199,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1772306,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u2",
+   "speaker": "business",
+   "text": "Hold on, let me go look",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 200,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1776583,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "utterance_id": "c_d527ff9c:u6",
+   "speaker": "business",
+   "text": "It's $27. We can't hold items though, it's first come first served.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 201,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1804998,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 202,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1916418,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u4",
+   "speaker": "business",
+   "text": "Still looking,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 203,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.1951256,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d162de5d",
+   "target_id": "t15",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 204,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2016037,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "Safeway Pharmacy is closed, moving open-now businesses to the front of the queue",
+   "source_call_id": "c_11e61fe7"
+  }
+ },
+ {
+  "seq": 205,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2080135,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "utterance_id": "c_746f8d0f:u6",
+   "speaker": "business",
+   "text": "It's $27, and yes, we can hold one for you",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 206,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2080538,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "utterance_id": "c_a5bfa578:u2",
+   "speaker": "business",
+   "text": "Yeah, hang on, let me",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 207,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2081027,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "utterance_id": "c_1b7e4fd5:u5",
+   "speaker": "agent",
+   "text": "Great, thank you. And what's the price on that, and is it something you could hold for a couple of hours?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 208,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.208128,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_f56c2c60",
+   "target_id": "t16",
+   "utterance_id": "c_f56c2c60:u2",
+   "speaker": "business",
+   "text": "You've reached CVS Pharmacy. We can't take your call right now, please leave a message after the tone.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 209,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.209944,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u2",
+   "speaker": "business",
+   "text": "Hold on, let me go look in the back.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 210,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2131255,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d82e5454",
+   "target_id": "t5",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 211,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2173228,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 212,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2225518,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u4",
+   "speaker": "business",
+   "text": "Still looking, one sec.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 213,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2277105,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 214,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.229701,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_d162de5d",
+   "target_id": "t15",
+   "result": {
+    "available": "no",
+    "item": "children's amoxicillin",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": "Let me check...",
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 215,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.231415,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "utterance_id": "c_746f8d0f:u6",
+   "speaker": "business",
+   "text": "It's $27, and yes, we can hold one for you for a couple of hours.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 216,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2339087,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "utterance_id": "c_a5bfa578:u2",
+   "speaker": "business",
+   "text": "Yeah, hang on, let me check the shelf.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 217,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2380178,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "utterance_id": "c_1b7e4fd5:u5",
+   "speaker": "agent",
+   "text": "Great, thank you. And what's the price on that, and is it something you could hold for a couple of hours?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 218,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.239676,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u3",
+   "speaker": "agent",
+   "text": "Okay, I'll hold.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 219,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2397285,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "Maple Health Pharmacy has it at $8.00, first confirmed match",
+   "source_call_id": "c_d82e5454"
+  }
+ },
+ {
+  "seq": 220,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2415385,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_f56c2c60",
+   "target_id": "t16",
+   "state": "failed",
+   "role": "inquiry",
+   "reason": "Reached voicemail"
+  }
+ },
+ {
+  "seq": 221,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.243479,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "result": {
+    "available": "yes",
+    "item": "children's amoxicillin",
+    "price": 27.0,
+    "currency": "USD",
+    "quantity": 6,
+    "can_hold": false,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": null,
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 222,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2456832,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u5",
+   "speaker": "agent",
+   "text": "Yep, no problem.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 223,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2457204,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "utterance_id": "c_fe5aaffa:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. Could you check whether you have children's amoxicillin in stock right now?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 224,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2476668,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d162de5d",
+   "target_id": "t15",
+   "utterance_id": "c_d162de5d:u4",
+   "speaker": "agent",
+   "text": "Okay, no worries. Thanks so much for checking. Have a good one!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 225,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2495146,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 226,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2518578,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "utterance_id": "c_a5bfa578:u3",
+   "speaker": "agent",
+   "text": "Okay, I'll hold.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 227,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2519312,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "utterance_id": "c_1b7e4fd5:u6",
+   "speaker": "business",
+   "text": "It's $17, and yes, we",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 228,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2519875,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u3",
+   "speaker": "agent",
+   "text": "Okay, I'll hold.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 229,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2583892,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "utterance_id": "c_d527ff9c:u8",
+   "speaker": "agent",
+   "text": "Great, that's really helpful. Thanks for your time, bye now!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 230,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2638867,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u5",
+   "speaker": "agent",
+   "text": "Yep, no problem.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 231,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2659752,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "utterance_id": "c_fe5aaffa:u2",
+   "speaker": "business",
+   "text": "Yeah, hang",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 232,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2660398,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "utterance_id": "c_a5bfa578:u3",
+   "speaker": "agent",
+   "text": "Okay, I'll hold.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 233,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2688317,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "utterance_id": "c_1b7e4fd5:u6",
+   "speaker": "business",
+   "text": "It's $17, and yes, we can hold one for you",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 234,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2688937,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "result": {
+    "available": "yes",
+    "item": "children's amoxicillin",
+    "price": 27.0,
+    "currency": "USD",
+    "quantity": 2,
+    "can_hold": true,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": null,
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 235,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2734423,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u4",
+   "speaker": "business",
+   "text": "Still",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 236,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2734728,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d162de5d",
+   "target_id": "t15",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 237,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2751837,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "utterance_id": "c_fe5aaffa:u2",
+   "speaker": "business",
+   "text": "Yeah, hang on, let me",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 238,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2752318,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u6",
+   "speaker": "business",
+   "text": "Okay, found it.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 239,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.275278,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "utterance_id": "c_1b7e4fd5:u6",
+   "speaker": "business",
+   "text": "It's $17, and yes, we can hold one for you for a couple of hours.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 240,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2771764,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "utterance_id": "c_a5bfa578:u4",
+   "speaker": "business",
+   "text": "Okay yeah, we",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 241,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2772422,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d527ff9c",
+   "target_id": "t7",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 242,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2803752,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "utterance_id": "c_746f8d0f:u8",
+   "speaker": "agent",
+   "text": "Perfect, thanks so much for checking. Have a good one!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 243,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2819097,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u4",
+   "speaker": "business",
+   "text": "Still looking,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 244,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2819588,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "utterance_id": "c_fe5aaffa:u2",
+   "speaker": "business",
+   "text": "Yeah, hang on, let me check the shelf.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 245,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2838407,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u6",
+   "speaker": "business",
+   "text": "Okay, found it. Yes, we do have",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 246,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2838967,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "utterance_id": "c_a5bfa578:u4",
+   "speaker": "business",
+   "text": "Okay yeah, we do have children's amoxicillin.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 247,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2839422,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 248,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2869396,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u4",
+   "speaker": "business",
+   "text": "Still looking, one sec.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 249,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2934217,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "utterance_id": "c_fe5aaffa:u3",
+   "speaker": "agent",
+   "text": "Sure, no rush.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 250,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2934527,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u6",
+   "speaker": "business",
+   "text": "Okay, found it. Yes, we do have children's amoxicillin, 6 left.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 251,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2949314,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "utterance_id": "c_a5bfa578:u4",
+   "speaker": "business",
+   "text": "Okay yeah, we do have children's amoxicillin. We've got 3 left.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 252,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2964244,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_746f8d0f",
+   "target_id": "t8",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 253,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2977612,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "result": {
+    "available": "yes",
+    "item": "children's amoxicillin",
+    "price": 17.0,
+    "currency": "USD",
+    "quantity": 2,
+    "can_hold": true,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": null,
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 254,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.2992032,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u5",
+   "speaker": "agent",
+   "text": "Okay, I'll hold.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 255,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.299244,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "utterance_id": "c_fe5aaffa:u3",
+   "speaker": "agent",
+   "text": "Sure, no rush.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 256,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3010838,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u7",
+   "speaker": "agent",
+   "text": "Great, thank you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 257,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3011355,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "utterance_id": "c_a5bfa578:u5",
+   "speaker": "agent",
+   "text": "Great, thank you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 258,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3011785,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "utterance_id": "c_1b7e4fd5:u8",
+   "speaker": "agent",
+   "text": "Perfect, thanks so much for checking. Have a good one!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 259,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.302965,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u5",
+   "speaker": "agent",
+   "text": "Okay, I'll hold.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 260,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.305386,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u7",
+   "speaker": "agent",
+   "text": "Great, thank you. And what's the price on that, and is it something you could hold for a couple of hours?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 261,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3054626,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "utterance_id": "c_fe5aaffa:u4",
+   "speaker": "business",
+   "text": "Okay yeah, we",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 262,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3055236,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "utterance_id": "c_a5bfa578:u5",
+   "speaker": "agent",
+   "text": "Great, thank you. And what's the price on that, and is it something you could hold for a couple of hours?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 263,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3055673,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u7",
+   "speaker": "agent",
+   "text": "Great, thank you. And what's the price on that, and is it something you could hold for a couple of hours?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 264,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3092456,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u6",
+   "speaker": "business",
+   "text": "Okay, found it.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 265,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3093212,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "utterance_id": "c_fe5aaffa:u4",
+   "speaker": "business",
+   "text": "Okay yeah, we do have children's amoxicillin.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 266,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3093684,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "utterance_id": "c_a5bfa578:u5",
+   "speaker": "agent",
+   "text": "Great, thank you. And what's the price on that, and is it something you could hold for a couple of hours?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 267,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3146865,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u8",
+   "speaker": "business",
+   "text": "It's $20 and",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 268,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3147404,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u6",
+   "speaker": "business",
+   "text": "Okay, found it. Yes, we do have",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 269,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3147664,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "utterance_id": "c_fe5aaffa:u4",
+   "speaker": "business",
+   "text": "Okay yeah, we do have children's amoxicillin. We've got 5 left.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 270,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.316648,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_1b7e4fd5",
+   "target_id": "t10",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 271,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.318374,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "utterance_id": "c_a5bfa578:u6",
+   "speaker": "business",
+   "text": "It's $9, and yes, we",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 272,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3184114,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u8",
+   "speaker": "business",
+   "text": "It's $20 and we can hold it",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 273,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.318438,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u6",
+   "speaker": "business",
+   "text": "Okay, found it. Yes, we do have children's amoxicillin, 7 left.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 274,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3203664,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "utterance_id": "c_fe5aaffa:u5",
+   "speaker": "agent",
+   "text": "Great, thank you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 275,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3204026,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "4 confirmed matches found, no further calls needed",
+   "source_call_id": null
+  }
+ },
+ {
+  "seq": 276,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.322209,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "utterance_id": "c_a5bfa578:u6",
+   "speaker": "business",
+   "text": "It's $9, and yes, we can hold one for you",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 277,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3222535,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u8",
+   "speaker": "business",
+   "text": "It's $20 and we can hold it for you, no problem.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 278,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3242714,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u7",
+   "speaker": "agent",
+   "text": "Great, thank you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 279,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3243215,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "utterance_id": "c_fe5aaffa:u5",
+   "speaker": "agent",
+   "text": "Great, thank you. And what's the price on that, and is it something you could hold for a couple of hours?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 280,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.324369,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "utterance_id": "c_a5bfa578:u6",
+   "speaker": "business",
+   "text": "It's $9, and yes, we can hold one for you for a couple of hours.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 281,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3282576,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u7",
+   "speaker": "agent",
+   "text": "Great, thank you. And what's the price on that, and is it something you could hold for a couple of hours?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 282,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3283086,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "utterance_id": "c_fe5aaffa:u5",
+   "speaker": "agent",
+   "text": "Great, thank you. And what's the price on that, and is it something you could hold for a couple of hours?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 283,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3313413,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 284,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3332877,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u7",
+   "speaker": "agent",
+   "text": "Great, thank you. And what's the price on that, and is it something you could hold for a couple of hours?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 285,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3369994,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 286,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.338728,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "utterance_id": "c_fe5aaffa:u6",
+   "speaker": "business",
+   "text": "It's $23, and yes, we",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 287,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3387756,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "result": {
+    "available": "yes",
+    "item": "children's amoxicillin",
+    "price": 20.0,
+    "currency": "USD",
+    "quantity": 6,
+    "can_hold": true,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": null,
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 288,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3420074,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u8",
+   "speaker": "business",
+   "text": "It's $27 and",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 289,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3420336,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "utterance_id": "c_fe5aaffa:u6",
+   "speaker": "business",
+   "text": "It's $23, and yes, we can hold one for you",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 290,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.342053,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "result": {
+    "available": "yes",
+    "item": "children's amoxicillin",
+    "price": 9.0,
+    "currency": "USD",
+    "quantity": 2,
+    "can_hold": true,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": null,
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 291,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.343362,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "utterance_id": "c_14bf17c4:u10",
+   "speaker": "agent",
+   "text": "Perfect, thanks so much for checking. Have a good one!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 292,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3446522,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u8",
+   "speaker": "business",
+   "text": "It's $27 and we can hold it",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 293,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.344691,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "utterance_id": "c_fe5aaffa:u6",
+   "speaker": "business",
+   "text": "It's $23, and yes, we can hold one for you for a couple of hours.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 294,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.346533,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "utterance_id": "c_a5bfa578:u8",
+   "speaker": "agent",
+   "text": "Great, that's really helpful. Thanks for your time, bye now!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 295,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3512592,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u8",
+   "speaker": "business",
+   "text": "It's $27 and we can hold it for you, no problem.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 296,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3562539,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 297,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3615422,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_14bf17c4",
+   "target_id": "t12",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 298,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3679938,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 299,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.369963,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_a5bfa578",
+   "target_id": "t18",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 300,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.373957,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "result": {
+    "available": "yes",
+    "item": "children's amoxicillin",
+    "price": 23.0,
+    "currency": "USD",
+    "quantity": 2,
+    "can_hold": true,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": null,
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 301,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3756983,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "result": {
+    "available": "yes",
+    "item": "children's amoxicillin",
+    "price": 27.0,
+    "currency": "USD",
+    "quantity": 7,
+    "can_hold": true,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": null,
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 302,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.377575,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "utterance_id": "c_fe5aaffa:u8",
+   "speaker": "agent",
+   "text": "Okay, thank you so much for your help. Take care!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 303,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3792078,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "utterance_id": "c_7d0977f6:u10",
+   "speaker": "agent",
+   "text": "Great, that's really helpful. Thanks for your time, bye now!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 304,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.387394,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_fe5aaffa",
+   "target_id": "t19",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 305,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3923526,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7d0977f6",
+   "target_id": "t17",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 306,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3941824,
+  "type": "swarm.ranked",
+  "data": {
+   "rankings": [
+    {
+     "call_id": "c_d82e5454",
+     "target_id": "t5",
+     "rank": 1,
+     "score": 0.921,
+     "reasons": [
+      "In stock",
+      "$8.00 (lowest price)",
+      "1.2 mi away",
+      "Can hold for you",
+      "2 left"
+     ]
+    },
+    {
+     "call_id": "c_1b7e4fd5",
+     "target_id": "t10",
+     "rank": 2,
+     "score": 0.766,
+     "reasons": [
+      "In stock",
+      "$17.00",
+      "2.5 mi away",
+      "Can hold for you",
+      "2 left"
+     ]
+    },
+    {
+     "call_id": "c_a5bfa578",
+     "target_id": "t18",
+     "rank": 3,
+     "score": 0.744,
+     "reasons": [
+      "In stock",
+      "$9.00",
+      "4.7 mi away",
+      "Can hold for you",
+      "2 left"
+     ]
+    },
+    {
+     "call_id": "c_14bf17c4",
+     "target_id": "t12",
+     "rank": 4,
+     "score": 0.702,
+     "reasons": [
+      "In stock",
+      "$20.00",
+      "3.2 mi away",
+      "Can hold for you",
+      "6 left"
+     ]
+    },
+    {
+     "call_id": "c_746f8d0f",
+     "target_id": "t8",
+     "rank": 5,
+     "score": 0.702,
+     "reasons": [
+      "In stock",
+      "$27.00",
+      "1.7 mi away",
+      "Can hold for you",
+      "2 left"
+     ]
+    },
+    {
+     "call_id": "c_d527ff9c",
+     "target_id": "t7",
+     "rank": 6,
+     "score": 0.618,
+     "reasons": [
+      "In stock",
+      "$27.00",
+      "1.4 mi away",
+      "6 left"
+     ]
+    },
+    {
+     "call_id": "c_fe5aaffa",
+     "target_id": "t19",
+     "rank": 7,
+     "score": 0.58,
+     "reasons": [
+      "In stock",
+      "$23.00",
+      "5.1 mi away",
+      "Can hold for you",
+      "2 left"
+     ]
+    },
+    {
+     "call_id": "c_7d0977f6",
+     "target_id": "t17",
+     "rank": 8,
+     "score": 0.563,
+     "reasons": [
+      "In stock",
+      "$27.00",
+      "4.6 mi away",
+      "Can hold for you",
+      "7 left"
+     ]
+    },
+    {
+     "call_id": "c_33f3bc05",
+     "target_id": "t2",
+     "rank": 9,
+     "score": 0.506,
+     "reasons": [
+      "Close substitute available",
+      "$23.00",
+      "1 mi away"
+     ]
+    }
+   ],
+   "best_call_id": "c_d82e5454",
+   "criteria": "Balanced: availability, price, distance, wait time and hold-ability"
+  }
+ },
+ {
+  "seq": 307,
+  "swarm_id": "s_7df5ae8f7f",
+  "ts": 1794004826.3957164,
+  "type": "swarm.completed",
+  "data": {
+   "status": "completed",
+   "calls_made": 19,
+   "calls_completed": 15,
+   "calls_failed": 4,
+   "positives": 8,
+   "elapsed_s": 0.6,
+   "error": null
+  }
+ }
+]

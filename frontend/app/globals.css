@@ -1,0 +1,16 @@
+@import "@fontsource-variable/bricolage-grotesque";
+@import "@fontsource-variable/public-sans";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+html, body { background: #EEF0EC; color: #12203A; }
+body { font-family: "Public Sans Variable", ui-sans-serif, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+h1, h2, h3 { font-family: "Bricolage Grotesque Variable", ui-sans-serif, system-ui, sans-serif; letter-spacing: -0.02em; }
+:focus-visible { outline: 2px solid #2557E6; outline-offset: 2px; }
+.tabular { font-variant-numeric: tabular-nums; }
+.scroll-quiet { scrollbar-width: thin; scrollbar-color: #CDD3CC transparent; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}

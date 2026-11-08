@@ -1,0 +1,4601 @@
+[
+ {
+  "seq": 1,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.055447,
+  "type": "swarm.created",
+  "data": {
+   "query": "12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today",
+   "mode": "simulated",
+   "intent": {
+    "raw_query": "12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today",
+    "item": "12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today",
+    "category": "food_donation",
+    "kind": "donation",
+    "place_query": "food pantry",
+    "urgency": "now",
+    "priority": "speed",
+    "radius_miles": 8.0,
+    "summary": "Find a food bank or pantry that can pick up 12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all mad\u2026 within 8 miles"
+   },
+   "origin": {
+    "lat": 37.7749,
+    "lng": -122.4194
+   },
+   "targets": [
+    {
+     "id": "t1",
+     "name": "Grace Church Food Pantry",
+     "address": "6497 2nd Ave",
+     "phone": "+12025550104",
+     "lat": 37.78153,
+     "lng": -122.42308,
+     "distance_miles": 0.5,
+     "open_now": true,
+     "rating": 4.0,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t2",
+     "name": "Sunrise Youth Shelter",
+     "address": "4450 Washington Ave",
+     "phone": "+12025550114",
+     "lat": 37.7819,
+     "lng": -122.42591,
+     "distance_miles": 0.6,
+     "open_now": true,
+     "rating": 4.5,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t3",
+     "name": "Mosque Community Pantry",
+     "address": "8721 Washington Ave",
+     "phone": "+12025550100",
+     "lat": 37.77108,
+     "lng": -122.40557,
+     "distance_miles": 0.8,
+     "open_now": true,
+     "rating": 4.7,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t4",
+     "name": "Gurdwara Langar Hall",
+     "address": "2663 Washington Ave",
+     "phone": "+12025550103",
+     "lat": 37.76343,
+     "lng": -122.41737,
+     "distance_miles": 0.8,
+     "open_now": false,
+     "rating": 4.8,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t5",
+     "name": "Salvation Army Meal Program",
+     "address": "2903 Broadway",
+     "phone": "+12025550113",
+     "lat": 37.77724,
+     "lng": -122.44855,
+     "distance_miles": 1.6,
+     "open_now": true,
+     "rating": 3.7,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t6",
+     "name": "Eastside Food Co-op Pantry",
+     "address": "1998 Maple Dr",
+     "phone": "+12025550102",
+     "lat": 37.7995,
+     "lng": -122.4387,
+     "distance_miles": 2.0,
+     "open_now": true,
+     "rating": 3.7,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t7",
+     "name": "Fresh Start Food Rescue",
+     "address": "623 Elm St",
+     "phone": "+12025550107",
+     "lat": 37.7518,
+     "lng": -122.38909,
+     "distance_miles": 2.3,
+     "open_now": true,
+     "rating": 4.1,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t8",
+     "name": "St. Anne's Soup Kitchen",
+     "address": "7971 River Rd",
+     "phone": "+12025550111",
+     "lat": 37.78661,
+     "lng": -122.45883,
+     "distance_miles": 2.3,
+     "open_now": true,
+     "rating": 4.9,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t9",
+     "name": "Harvest Hope Pantry",
+     "address": "8326 Mill Rd",
+     "phone": "+12025550117",
+     "lat": 37.76789,
+     "lng": -122.46057,
+     "distance_miles": 2.3,
+     "open_now": true,
+     "rating": 4.7,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t10",
+     "name": "Second Helpings Rescue",
+     "address": "2473 Maple Dr",
+     "phone": "+12025550109",
+     "lat": 37.79554,
+     "lng": -122.37742,
+     "distance_miles": 2.7,
+     "open_now": true,
+     "rating": 4.1,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t11",
+     "name": "Capital Area Food Bank",
+     "address": "784 Oak Ave",
+     "phone": "+12025550108",
+     "lat": 37.79384,
+     "lng": -122.36794,
+     "distance_miles": 3.1,
+     "open_now": false,
+     "rating": 4.7,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t12",
+     "name": "Open Hands Pantry",
+     "address": "1867 River Rd",
+     "phone": "+12025550112",
+     "lat": 37.79555,
+     "lng": -122.48979,
+     "distance_miles": 4.1,
+     "open_now": true,
+     "rating": 4.7,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t13",
+     "name": "Loaves & Fishes Kitchen",
+     "address": "9486 Cedar Ln",
+     "phone": "+12025550110",
+     "lat": 37.70165,
+     "lng": -122.40792,
+     "distance_miles": 5.1,
+     "open_now": true,
+     "rating": 4.5,
+     "tier": "backup",
+     "source": "mock"
+    },
+    {
+     "id": "t14",
+     "name": "Community Table Food Bank",
+     "address": "2524 Broadway",
+     "phone": "+12025550115",
+     "lat": 37.7644,
+     "lng": -122.52845,
+     "distance_miles": 6.0,
+     "open_now": true,
+     "rating": 4.1,
+     "tier": "backup",
+     "source": "mock"
+    },
+    {
+     "id": "t15",
+     "name": "Rise Up Community Fridge",
+     "address": "1398 Highland Ave",
+     "phone": "+12025550105",
+     "lat": 37.86077,
+     "lng": -122.39346,
+     "distance_miles": 6.1,
+     "open_now": true,
+     "rating": 4.0,
+     "tier": "backup",
+     "source": "mock"
+    },
+    {
+     "id": "t16",
+     "name": "Neighbors Helping Neighbors",
+     "address": "5823 Broadway",
+     "phone": "+12025550106",
+     "lat": 37.75318,
+     "lng": -122.53142,
+     "distance_miles": 6.3,
+     "open_now": true,
+     "rating": 4.0,
+     "tier": "backup",
+     "source": "mock"
+    },
+    {
+     "id": "t17",
+     "name": "Family Promise Shelter",
+     "address": "5106 Elm St",
+     "phone": "+12025550116",
+     "lat": 37.86698,
+     "lng": -122.39501,
+     "distance_miles": 6.5,
+     "open_now": true,
+     "rating": 4.3,
+     "tier": "backup",
+     "source": "mock"
+    },
+    {
+     "id": "t18",
+     "name": "Hope Shelter Kitchen",
+     "address": "7113 Highland Ave",
+     "phone": "+12025550101",
+     "lat": 37.71881,
+     "lng": -122.30187,
+     "distance_miles": 7.5,
+     "open_now": true,
+     "rating": 4.3,
+     "tier": "backup",
+     "source": "mock"
+    }
+   ]
+  }
+ },
+ {
+  "seq": 2,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.0615091,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_aad910eb",
+   "target_id": "t1",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 3,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.067541,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_aad910eb",
+   "target_id": "t1",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 4,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.0697393,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_c6cf9af2",
+   "target_id": "t2",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 5,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.073099,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_aad910eb",
+   "target_id": "t1",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 6,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.0782855,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_c6cf9af2",
+   "target_id": "t2",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 7,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.0803359,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_aad910eb",
+   "target_id": "t1",
+   "utterance_id": "c_aad910eb:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of Luigi's Trattoria. They have surplus food that would otherwise be thrown out tonight: 12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today. It needs to be picked up before 10 pm. Could your organization pick it up?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 8,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.0821748,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7ce380ce",
+   "target_id": "t3",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 9,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.0852985,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_aad910eb",
+   "target_id": "t1",
+   "utterance_id": "c_aad910eb:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 10,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.0854254,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_c6cf9af2",
+   "target_id": "t2",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 11,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.0890543,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_aad910eb",
+   "target_id": "t1",
+   "utterance_id": "c_aad910eb:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're at capacity tonight, our",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 12,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.0891097,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c6cf9af2",
+   "target_id": "t2",
+   "utterance_id": "c_c6cf9af2:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of Luigi's Trattoria. They have surplus food that would otherwise be thrown out tonight: 12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today. It needs to be picked up before 10 pm. Could your organization pick it up?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 13,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.0933824,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_aad910eb",
+   "target_id": "t1",
+   "utterance_id": "c_aad910eb:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're at capacity tonight, our fridges are completely full.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 14,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.0954447,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7ce380ce",
+   "target_id": "t3",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 15,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.0984566,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_3f0c0c7a",
+   "target_id": "t4",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 16,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.0999703,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c6cf9af2",
+   "target_id": "t2",
+   "utterance_id": "c_c6cf9af2:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 17,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.100078,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_aad910eb",
+   "target_id": "t1",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 18,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1048658,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c6cf9af2",
+   "target_id": "t2",
+   "utterance_id": "c_c6cf9af2:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're at capacity tonight, our",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 19,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1049297,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7ce380ce",
+   "target_id": "t3",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 20,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1131446,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c6cf9af2",
+   "target_id": "t2",
+   "utterance_id": "c_c6cf9af2:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're at capacity tonight, our fridges are completely full.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 21,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1151037,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_3f0c0c7a",
+   "target_id": "t4",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 22,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1190362,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_fe51d071",
+   "target_id": "t5",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 23,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.120779,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_aad910eb",
+   "target_id": "t1",
+   "result": {
+    "available": "no",
+    "item": "12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": "Oh, I'm sorry, we're at capacity tonight, our fridges are completely full.",
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 24,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1259553,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7ce380ce",
+   "target_id": "t3",
+   "utterance_id": "c_7ce380ce:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of Luigi's Trattoria. They have surplus food that would otherwise be thrown out tonight: 12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today. It needs to be picked up before 10 pm. Could your organization pick it up?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 25,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.130099,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_c6cf9af2",
+   "target_id": "t2",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 26,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1316211,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_3f0c0c7a",
+   "target_id": "t4",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 27,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1346126,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_aad910eb",
+   "target_id": "t1",
+   "utterance_id": "c_aad910eb:u4",
+   "speaker": "agent",
+   "text": "Alright, thanks anyway for your time. Take care!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 28,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1359448,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_fe51d071",
+   "target_id": "t5",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 29,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1380258,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 30,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1409366,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7ce380ce",
+   "target_id": "t3",
+   "utterance_id": "c_7ce380ce:u2",
+   "speaker": "business",
+   "text": "Sure,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 31,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1410375,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_c6cf9af2",
+   "target_id": "t2",
+   "result": {
+    "available": "no",
+    "item": "12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": "Oh, I'm sorry, we're at capacity tonight, our fridges are completely full.",
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 32,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1514869,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3f0c0c7a",
+   "target_id": "t4",
+   "utterance_id": "c_3f0c0c7a:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of Luigi's Trattoria. They have surplus food that would otherwise be thrown out tonight: 12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today. It needs to be picked up before 10 pm. Could your organization pick it up?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 33,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.156225,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7ce380ce",
+   "target_id": "t3",
+   "utterance_id": "c_7ce380ce:u2",
+   "speaker": "business",
+   "text": "Sure, one",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 34,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.156286,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_fe51d071",
+   "target_id": "t5",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 35,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1576312,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_aad910eb",
+   "target_id": "t1",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 36,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1591222,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c6cf9af2",
+   "target_id": "t2",
+   "utterance_id": "c_c6cf9af2:u4",
+   "speaker": "agent",
+   "text": "Okay, no worries. Thanks so much for checking. Have a good one!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 37,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.160476,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 38,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1623669,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_5e72716c",
+   "target_id": "t7",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 39,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.164995,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7ce380ce",
+   "target_id": "t3",
+   "utterance_id": "c_7ce380ce:u2",
+   "speaker": "business",
+   "text": "Sure, one sec.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 40,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1737196,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3f0c0c7a",
+   "target_id": "t4",
+   "utterance_id": "c_3f0c0c7a:u2",
+   "speaker": "business",
+   "text": "Sorry, our intake line is",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 41,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1737611,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe51d071",
+   "target_id": "t5",
+   "utterance_id": "c_fe51d071:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of Luigi's Trattoria. They have surplus food that would otherwise be thrown out tonight: 12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today. It needs to be picked up before 10 pm. Could your organization pick it up?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 42,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.177872,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "Grace Church Food Pantry is at capacity tonight",
+   "source_call_id": "c_aad910eb"
+  }
+ },
+ {
+  "seq": 43,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1795735,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 44,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1830406,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_c6cf9af2",
+   "target_id": "t2",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 45,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1844058,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7ce380ce",
+   "target_id": "t3",
+   "utterance_id": "c_7ce380ce:u3",
+   "speaker": "agent",
+   "text": "Wonderful, thank you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 46,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.184438,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3f0c0c7a",
+   "target_id": "t4",
+   "utterance_id": "c_3f0c0c7a:u2",
+   "speaker": "business",
+   "text": "Sorry, our intake line is closed for the night. We open",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 47,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1844645,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_5e72716c",
+   "target_id": "t7",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 48,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1859224,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 49,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1875215,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe51d071",
+   "target_id": "t5",
+   "utterance_id": "c_fe51d071:u2",
+   "speaker": "business",
+   "text": "Thank you for thinking of",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 50,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.187634,
+  "type": "swarm.reroute",
+  "data": {
+   "from_call_id": "c_aad910eb",
+   "from_target_id": "t1",
+   "to_target_id": "t13",
+   "to_call_id": "c_83bb3546",
+   "kind": "no_stock",
+   "reason": "Grace Church Food Pantry can't take it tonight, trying Loaves & Fishes Kitchen",
+   "new_target": null
+  }
+ },
+ {
+  "seq": 51,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.1941566,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of Luigi's Trattoria. They have surplus food that would otherwise be thrown out tonight: 12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today. It needs to be picked up before 10 pm. Could your organization pick it up?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 52,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2003987,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "Sunrise Youth Shelter is at capacity tonight",
+   "source_call_id": "c_c6cf9af2"
+  }
+ },
+ {
+  "seq": 53,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2025478,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7ce380ce",
+   "target_id": "t3",
+   "utterance_id": "c_7ce380ce:u3",
+   "speaker": "agent",
+   "text": "Wonderful, thank you. How soon could someone come by and can you take fresh or refrigerated food?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 54,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.202603,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3f0c0c7a",
+   "target_id": "t4",
+   "utterance_id": "c_3f0c0c7a:u2",
+   "speaker": "business",
+   "text": "Sorry, our intake line is closed for the night. We open again at 9 tomorrow morning.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 55,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.20639,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe51d071",
+   "target_id": "t5",
+   "utterance_id": "c_fe51d071:u2",
+   "speaker": "business",
+   "text": "Thank you for thinking of us. We don't take fresh",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 56,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2064261,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_5e72716c",
+   "target_id": "t7",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 57,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2079525,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 58,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.209343,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 59,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2113228,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_83bb3546",
+   "target_id": "t13",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 60,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.218288,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u2",
+   "speaker": "business",
+   "text": "Hold on,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 61,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2184043,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7ce380ce",
+   "target_id": "t3",
+   "utterance_id": "c_7ce380ce:u3",
+   "speaker": "agent",
+   "text": "Wonderful, thank you. How soon could someone come by and can you take fresh or refrigerated food?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 62,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.223228,
+  "type": "swarm.reroute",
+  "data": {
+   "from_call_id": "c_c6cf9af2",
+   "from_target_id": "t2",
+   "to_target_id": "t14",
+   "to_call_id": "c_5bf2b09c",
+   "kind": "no_stock",
+   "reason": "Sunrise Youth Shelter can't take it tonight, trying Community Table Food Bank",
+   "new_target": null
+  }
+ },
+ {
+  "seq": 63,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.226726,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3f0c0c7a",
+   "target_id": "t4",
+   "utterance_id": "c_3f0c0c7a:u3",
+   "speaker": "agent",
+   "text": "Sorry, just to confirm, could your organization send someone to pick up the food tonight?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 64,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2267835,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe51d071",
+   "target_id": "t5",
+   "utterance_id": "c_fe51d071:u2",
+   "speaker": "business",
+   "text": "Thank you for thinking of us. We don't take fresh food, only shelf-stable items, sorry.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 65,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2297356,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_5e72716c",
+   "target_id": "t7",
+   "utterance_id": "c_5e72716c:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of Luigi's Trattoria. They have surplus food that would otherwise be thrown out tonight: 12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today. It needs to be picked up before 10 pm. Could your organization pick it up?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 66,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2336574,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 67,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2353907,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u2",
+   "speaker": "business",
+   "text": "Hold on, let me see",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 68,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2354252,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 69,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.236868,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7aebf75c",
+   "target_id": "t10",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 70,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2385998,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7ce380ce",
+   "target_id": "t3",
+   "utterance_id": "c_7ce380ce:u4",
+   "speaker": "business",
+   "text": "We can't send anyone to pick up",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 71,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2387116,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_83bb3546",
+   "target_id": "t13",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 72,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2445793,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3f0c0c7a",
+   "target_id": "t4",
+   "utterance_id": "c_3f0c0c7a:u3",
+   "speaker": "agent",
+   "text": "Sorry, just to confirm, could your organization send someone to pick up the food tonight?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 73,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2494626,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_5bf2b09c",
+   "target_id": "t14",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 74,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2522151,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_fe51d071",
+   "target_id": "t5",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 75,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2579744,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_5e72716c",
+   "target_id": "t7",
+   "utterance_id": "c_5e72716c:u2",
+   "speaker": "business",
+   "text": "We're full tonight, sorry. You could try",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 76,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2580283,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "utterance_id": "c_fe666dbe:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of Luigi's Trattoria. They have surplus food that would otherwise be thrown out tonight: 12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today. It needs to be picked up before 10 pm. Could your organization pick it up?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 77,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2635958,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u2",
+   "speaker": "business",
+   "text": "Hold on, let me see who's on shift.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 78,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2652724,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7ce380ce",
+   "target_id": "t3",
+   "utterance_id": "c_7ce380ce:u4",
+   "speaker": "business",
+   "text": "We can't send anyone to pick up tonight, our van is out, but you can",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 79,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2653072,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 80,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2665842,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7aebf75c",
+   "target_id": "t10",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 81,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2682438,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_91762bab",
+   "target_id": "t11",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 82,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.270044,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3f0c0c7a",
+   "target_id": "t4",
+   "utterance_id": "c_3f0c0c7a:u4",
+   "speaker": "business",
+   "text": "Okay, was",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 83,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2701566,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_83bb3546",
+   "target_id": "t13",
+   "state": "failed",
+   "role": "inquiry",
+   "reason": "No answer"
+  }
+ },
+ {
+  "seq": 84,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2760532,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_5e72716c",
+   "target_id": "t7",
+   "utterance_id": "c_5e72716c:u2",
+   "speaker": "business",
+   "text": "We're full tonight, sorry. You could try Mercy Meals on Maple Drive, they have",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 85,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2761152,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_5bf2b09c",
+   "target_id": "t14",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 86,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2826977,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_fe51d071",
+   "target_id": "t5",
+   "result": {
+    "available": "partial",
+    "item": "12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": "No fresh food, shelf-stable only",
+    "confidence": 0.85,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": false,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 87,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2849257,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "utterance_id": "c_fe666dbe:u2",
+   "speaker": "business",
+   "text": "Oh, that's wonderful.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 88,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2849822,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u3",
+   "speaker": "agent",
+   "text": "Okay, I'll hold.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 89,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2850296,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7ce380ce",
+   "target_id": "t3",
+   "utterance_id": "c_7ce380ce:u4",
+   "speaker": "business",
+   "text": "We can't send anyone to pick up tonight, our van is out, but you can drop it off here until 8 pm.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 90,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2907233,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "utterance_id": "c_cb3b7825:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of Luigi's Trattoria. They have surplus food that would otherwise be thrown out tonight: 12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today. It needs to be picked up before 10 pm. Could your organization pick it up?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 91,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2945776,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3f0c0c7a",
+   "target_id": "t4",
+   "utterance_id": "c_3f0c0c7a:u4",
+   "speaker": "business",
+   "text": "Okay, was there anything",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 92,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2946389,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7aebf75c",
+   "target_id": "t10",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 93,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2960925,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_5e72716c",
+   "target_id": "t7",
+   "utterance_id": "c_5e72716c:u2",
+   "speaker": "business",
+   "text": "We're full tonight, sorry. You could try Mercy Meals on Maple Drive, they have a big walk-in cooler and a van.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 94,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.2983656,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_91762bab",
+   "target_id": "t11",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 95,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3019028,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 96,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.303574,
+  "type": "swarm.reroute",
+  "data": {
+   "from_call_id": "c_83bb3546",
+   "from_target_id": "t13",
+   "to_target_id": "t15",
+   "to_call_id": "c_dc11c860",
+   "kind": "failed",
+   "reason": "Loaves & Fishes Kitchen: No answer. Trying Rise Up Community Fridge",
+   "new_target": null
+  }
+ },
+ {
+  "seq": 97,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3080359,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe51d071",
+   "target_id": "t5",
+   "utterance_id": "c_fe51d071:u4",
+   "speaker": "agent",
+   "text": "Great, that's really helpful. Thanks for your time, bye now!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 98,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.313032,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "utterance_id": "c_fe666dbe:u2",
+   "speaker": "business",
+   "text": "Oh, that's wonderful. Let me check",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 99,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3130918,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u3",
+   "speaker": "agent",
+   "text": "Okay, I'll hold.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 100,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3153768,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_5bf2b09c",
+   "target_id": "t14",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 101,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.318302,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7ce380ce",
+   "target_id": "t3",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 102,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3231199,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3f0c0c7a",
+   "target_id": "t4",
+   "utterance_id": "c_3f0c0c7a:u4",
+   "speaker": "business",
+   "text": "Okay, was there anything else you needed?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 103,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3268576,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "utterance_id": "c_cb3b7825:u2",
+   "speaker": "business",
+   "text": "Oh, that's wonderful.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 104,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.326902,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7aebf75c",
+   "target_id": "t10",
+   "utterance_id": "c_7aebf75c:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of Luigi's Trattoria. They have surplus food that would otherwise be thrown out tonight: 12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today. It needs to be picked up before 10 pm. Could your organization pick it up?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 105,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3286173,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_5e72716c",
+   "target_id": "t7",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 106,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3305004,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_91762bab",
+   "target_id": "t11",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 107,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3337822,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 108,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3351676,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_dc11c860",
+   "target_id": "t15",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 109,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3369024,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "utterance_id": "c_fe666dbe:u2",
+   "speaker": "business",
+   "text": "Oh, that's wonderful. Let me check with our driver.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 110,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.340703,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u4",
+   "speaker": "business",
+   "text": "Still",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 111,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.340759,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_5bf2b09c",
+   "target_id": "t14",
+   "utterance_id": "c_5bf2b09c:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of Luigi's Trattoria. They have surplus food that would otherwise be thrown out tonight: 12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today. It needs to be picked up before 10 pm. Could your organization pick it up?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 112,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3436046,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_fe51d071",
+   "target_id": "t5",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 113,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3451028,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_7ce380ce",
+   "target_id": "t3",
+   "result": {
+    "available": "partial",
+    "item": "12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": "Drop-off only, they cannot pick up",
+    "confidence": 0.85,
+    "hours": "until 8 pm",
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": false
+   }
+  }
+ },
+ {
+  "seq": 114,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.346737,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3f0c0c7a",
+   "target_id": "t4",
+   "utterance_id": "c_3f0c0c7a:u5",
+   "speaker": "agent",
+   "text": "Just to make sure I've got it right, is that a yes or a no?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 115,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.346773,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "utterance_id": "c_cb3b7825:u2",
+   "speaker": "business",
+   "text": "Oh, that's wonderful. Let me check",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 116,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3467984,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7aebf75c",
+   "target_id": "t10",
+   "utterance_id": "c_7aebf75c:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 117,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3468595,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_5e72716c",
+   "target_id": "t7",
+   "result": {
+    "available": "no",
+    "item": "12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": "Mercy Meals",
+    "referral_phone": null,
+    "closed": null,
+    "notes": "We're full tonight, sorry.",
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 118,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3484416,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_91762bab",
+   "target_id": "t11",
+   "utterance_id": "c_91762bab:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of Luigi's Trattoria. They have surplus food that would otherwise be thrown out tonight: 12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today. It needs to be picked up before 10 pm. Could your organization pick it up?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 119,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.349732,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 120,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3512125,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "utterance_id": "c_fe666dbe:u3",
+   "speaker": "agent",
+   "text": "Sure, no rush.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 121,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3512442,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u4",
+   "speaker": "business",
+   "text": "Still checking,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 122,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3512793,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_dc11c860",
+   "target_id": "t15",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 123,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3529065,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_5bf2b09c",
+   "target_id": "t14",
+   "utterance_id": "c_5bf2b09c:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 124,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.353186,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "Salvation Army Meal Program only takes part of it: No fresh food, shelf-stable only",
+   "source_call_id": "c_fe51d071"
+  }
+ },
+ {
+  "seq": 125,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3568826,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7ce380ce",
+   "target_id": "t3",
+   "utterance_id": "c_7ce380ce:u6",
+   "speaker": "agent",
+   "text": "Okay, thank you so much for your help. Take care!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 126,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3586836,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3f0c0c7a",
+   "target_id": "t4",
+   "utterance_id": "c_3f0c0c7a:u5",
+   "speaker": "agent",
+   "text": "Just to make sure I've got it right, is that a yes or a no?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 127,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3609695,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "utterance_id": "c_cb3b7825:u2",
+   "speaker": "business",
+   "text": "Oh, that's wonderful. Let me check with our driver.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 128,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3637002,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7aebf75c",
+   "target_id": "t10",
+   "utterance_id": "c_7aebf75c:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're at capacity tonight, our",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 129,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3637488,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_5e72716c",
+   "target_id": "t7",
+   "utterance_id": "c_5e72716c:u4",
+   "speaker": "agent",
+   "text": "Alright, thanks anyway for your time. Take care!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 130,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.368121,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_91762bab",
+   "target_id": "t11",
+   "utterance_id": "c_91762bab:u2",
+   "speaker": "business",
+   "text": "Sorry, our intake line is",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 131,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3682082,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "utterance_id": "c_46f44fca:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of Luigi's Trattoria. They have surplus food that would otherwise be thrown out tonight: 12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today. It needs to be picked up before 10 pm. Could your organization pick it up?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 132,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3699563,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "utterance_id": "c_fe666dbe:u3",
+   "speaker": "agent",
+   "text": "Sure, no rush.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 133,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3724732,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u4",
+   "speaker": "business",
+   "text": "Still checking, one moment.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 134,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3764205,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_5bf2b09c",
+   "target_id": "t14",
+   "utterance_id": "c_5bf2b09c:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're at capacity tonight, our",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 135,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3764632,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_dc11c860",
+   "target_id": "t15",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 136,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3776886,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3f0c0c7a",
+   "target_id": "t4",
+   "utterance_id": "c_3f0c0c7a:u6",
+   "speaker": "business",
+   "text": "Okay, was",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 137,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3777146,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "utterance_id": "c_cb3b7825:u3",
+   "speaker": "agent",
+   "text": "Mm-hm, take your time.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 138,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.377734,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7aebf75c",
+   "target_id": "t10",
+   "utterance_id": "c_7aebf75c:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're at capacity tonight, our fridges are completely full.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 139,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.379336,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7ce380ce",
+   "target_id": "t3",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 140,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3823898,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_91762bab",
+   "target_id": "t11",
+   "utterance_id": "c_91762bab:u2",
+   "speaker": "business",
+   "text": "Sorry, our intake line is closed for the night. We open",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 141,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3824186,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "utterance_id": "c_46f44fca:u2",
+   "speaker": "business",
+   "text": "Oh, that's wonderful.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 142,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.382448,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "utterance_id": "c_fe666dbe:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we can send",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 143,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3824651,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_5e72716c",
+   "target_id": "t7",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 144,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3838596,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u5",
+   "speaker": "agent",
+   "text": "Sure, no rush.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 145,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3838904,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_5bf2b09c",
+   "target_id": "t14",
+   "utterance_id": "c_5bf2b09c:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're at capacity tonight, our fridges are completely full.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 146,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3855698,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_dc11c860",
+   "target_id": "t15",
+   "utterance_id": "c_dc11c860:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of Luigi's Trattoria. They have surplus food that would otherwise be thrown out tonight: 12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today. It needs to be picked up before 10 pm. Could your organization pick it up?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 147,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3895729,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3f0c0c7a",
+   "target_id": "t4",
+   "utterance_id": "c_3f0c0c7a:u6",
+   "speaker": "business",
+   "text": "Okay, was there anything",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 148,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3896334,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "utterance_id": "c_cb3b7825:u3",
+   "speaker": "agent",
+   "text": "Mm-hm, take your time.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 149,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3911462,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7aebf75c",
+   "target_id": "t10",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 150,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3931124,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "Mosque Community Pantry can't send anyone, drop-off only",
+   "source_call_id": "c_7ce380ce"
+  }
+ },
+ {
+  "seq": 151,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.3966575,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_91762bab",
+   "target_id": "t11",
+   "utterance_id": "c_91762bab:u2",
+   "speaker": "business",
+   "text": "Sorry, our intake line is closed for the night. We open again at 9 tomorrow morning.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 152,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4005477,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "utterance_id": "c_46f44fca:u2",
+   "speaker": "business",
+   "text": "Oh, that's wonderful. Let me check",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 153,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4005811,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "utterance_id": "c_fe666dbe:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we can send a volunteer to pick it up,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 154,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.400602,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "Fresh Start Food Rescue is at capacity tonight",
+   "source_call_id": "c_5e72716c"
+  }
+ },
+ {
+  "seq": 155,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4025507,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u5",
+   "speaker": "agent",
+   "text": "Sure, no rush.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 156,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4061332,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_5bf2b09c",
+   "target_id": "t14",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 157,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4077306,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3f0c0c7a",
+   "target_id": "t4",
+   "utterance_id": "c_3f0c0c7a:u6",
+   "speaker": "business",
+   "text": "Okay, was there anything else you needed?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 158,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.411239,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_dc11c860",
+   "target_id": "t15",
+   "utterance_id": "c_dc11c860:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 159,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.411668,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "utterance_id": "c_cb3b7825:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we can send",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 160,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4117198,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_7aebf75c",
+   "target_id": "t10",
+   "result": {
+    "available": "no",
+    "item": "12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": "Oh, I'm sorry, we're at capacity tonight, our fridges are completely full.",
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 161,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4147465,
+  "type": "swarm.reroute",
+  "data": {
+   "from_call_id": "c_7ce380ce",
+   "from_target_id": "t3",
+   "to_target_id": "t16",
+   "to_call_id": "c_f8946656",
+   "kind": "no_stock",
+   "reason": "Mosque Community Pantry can't pick it up, trying Neighbors Helping Neighbors",
+   "new_target": null
+  }
+ },
+ {
+  "seq": 162,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4190953,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_91762bab",
+   "target_id": "t11",
+   "utterance_id": "c_91762bab:u3",
+   "speaker": "agent",
+   "text": "Sorry, just to confirm, could your organization send someone to pick up the food tonight?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 163,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4191413,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "utterance_id": "c_46f44fca:u2",
+   "speaker": "business",
+   "text": "Oh, that's wonderful. Let me check with our driver.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 164,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4213018,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "utterance_id": "c_fe666dbe:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we can send a volunteer to pick it up, about 30 minutes from now.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 165,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.422904,
+  "type": "swarm.reroute",
+  "data": {
+   "from_call_id": "c_5e72716c",
+   "from_target_id": "t7",
+   "to_target_id": "t19",
+   "to_call_id": "c_05a73f4c",
+   "kind": "referral",
+   "reason": "Fresh Start Food Rescue recommended Mercy Meals, calling them now",
+   "new_target": {
+    "id": "t19",
+    "name": "Mercy Meals",
+    "address": "5300 Sunset Blvd",
+    "phone": "+12025550310",
+    "lat": 37.74579,
+    "lng": -122.47842,
+    "distance_miles": 3.8,
+    "open_now": true,
+    "rating": 4.0,
+    "tier": "backup",
+    "source": "referral"
+   }
+  }
+ },
+ {
+  "seq": 166,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4245362,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u6",
+   "speaker": "business",
+   "text": "Okay, we can send",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 167,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.424582,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_5bf2b09c",
+   "target_id": "t14",
+   "result": {
+    "available": "no",
+    "item": "12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": "Oh, I'm sorry, we're at capacity tonight, our fridges are completely full.",
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 168,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.42661,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_dc11c860",
+   "target_id": "t15",
+   "utterance_id": "c_dc11c860:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're at capacity tonight, our",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 169,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4266346,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "utterance_id": "c_cb3b7825:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we can send a volunteer to pick it up,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 170,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.426653,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7aebf75c",
+   "target_id": "t10",
+   "utterance_id": "c_7aebf75c:u4",
+   "speaker": "agent",
+   "text": "Alright, thanks anyway for your time. Take care!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 171,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4278646,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_3f0c0c7a",
+   "target_id": "t4",
+   "state": "failed",
+   "role": "inquiry",
+   "reason": "Call ended without an answer"
+  }
+ },
+ {
+  "seq": 172,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4294546,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_91762bab",
+   "target_id": "t11",
+   "utterance_id": "c_91762bab:u3",
+   "speaker": "agent",
+   "text": "Sorry, just to confirm, could your organization send someone to pick up the food tonight?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 173,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4333425,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_f8946656",
+   "target_id": "t16",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 174,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4368832,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "utterance_id": "c_46f44fca:u3",
+   "speaker": "agent",
+   "text": "Yep, no problem.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 175,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4369655,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "utterance_id": "c_fe666dbe:u5",
+   "speaker": "agent",
+   "text": "Wonderful, thank you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 176,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4372163,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u6",
+   "speaker": "business",
+   "text": "Okay, we can send someone, they can be there",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 177,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4372654,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 178,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4397357,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_5bf2b09c",
+   "target_id": "t14",
+   "utterance_id": "c_5bf2b09c:u4",
+   "speaker": "agent",
+   "text": "Okay, no worries. Thanks so much for checking. Have a good one!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 179,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.441218,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_dc11c860",
+   "target_id": "t15",
+   "utterance_id": "c_dc11c860:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're at capacity tonight, our fridges are completely full.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 180,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.444403,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "utterance_id": "c_cb3b7825:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we can send a volunteer to pick it up, about 20 minutes from now.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 181,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4484835,
+  "type": "swarm.reroute",
+  "data": {
+   "from_call_id": "c_3f0c0c7a",
+   "from_target_id": "t4",
+   "to_target_id": "t17",
+   "to_call_id": "c_8d837c78",
+   "kind": "failed",
+   "reason": "Gurdwara Langar Hall: Call ended without an answer. Trying Family Promise Shelter",
+   "new_target": null
+  }
+ },
+ {
+  "seq": 182,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.452279,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_91762bab",
+   "target_id": "t11",
+   "utterance_id": "c_91762bab:u4",
+   "speaker": "business",
+   "text": "Okay, was",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 183,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4523263,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7aebf75c",
+   "target_id": "t10",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 184,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4543178,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "utterance_id": "c_46f44fca:u3",
+   "speaker": "agent",
+   "text": "Yep, no problem.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 185,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4555073,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "utterance_id": "c_fe666dbe:u5",
+   "speaker": "agent",
+   "text": "Wonderful, thank you. Can you take fresh or refrigerated food?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 186,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.455541,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u6",
+   "speaker": "business",
+   "text": "Okay, we can send someone, they can be there in about 45 minutes.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 187,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4570117,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_f8946656",
+   "target_id": "t16",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 188,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4582257,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 189,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4595213,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_dc11c860",
+   "target_id": "t15",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 190,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4622777,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "utterance_id": "c_cb3b7825:u5",
+   "speaker": "agent",
+   "text": "Wonderful, thank you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 191,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.462324,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_5bf2b09c",
+   "target_id": "t14",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 192,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4665918,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_91762bab",
+   "target_id": "t11",
+   "utterance_id": "c_91762bab:u4",
+   "speaker": "business",
+   "text": "Okay, was there anything",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 193,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4666204,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_8d837c78",
+   "target_id": "t17",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 194,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4679506,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "Second Helpings Rescue is at capacity tonight",
+   "source_call_id": "c_7aebf75c"
+  }
+ },
+ {
+  "seq": 195,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4695013,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "utterance_id": "c_fe666dbe:u5",
+   "speaker": "agent",
+   "text": "Wonderful, thank you. Can you take fresh or refrigerated food?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 196,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.474101,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "utterance_id": "c_46f44fca:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we can send",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 197,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.474144,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u7",
+   "speaker": "agent",
+   "text": "Wonderful, thank you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 198,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4741642,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_f8946656",
+   "target_id": "t16",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 199,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4754732,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "utterance_id": "c_cb3b7825:u5",
+   "speaker": "agent",
+   "text": "Wonderful, thank you. Can you take fresh or refrigerated food?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 200,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4754963,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 201,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4767451,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_dc11c860",
+   "target_id": "t15",
+   "result": {
+    "available": "no",
+    "item": "12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": "Oh, I'm sorry, we're at capacity tonight, our fridges are completely full.",
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 202,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4780025,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "Community Table Food Bank is at capacity tonight",
+   "source_call_id": "c_5bf2b09c"
+  }
+ },
+ {
+  "seq": 203,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4791038,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_91762bab",
+   "target_id": "t11",
+   "utterance_id": "c_91762bab:u4",
+   "speaker": "business",
+   "text": "Okay, was there anything else you needed?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 204,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4803824,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_8d837c78",
+   "target_id": "t17",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 205,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4815838,
+  "type": "swarm.reroute",
+  "data": {
+   "from_call_id": "c_7aebf75c",
+   "from_target_id": "t10",
+   "to_target_id": "t18",
+   "to_call_id": "c_5973011a",
+   "kind": "no_stock",
+   "reason": "Second Helpings Rescue can't take it tonight, trying Hope Shelter Kitchen",
+   "new_target": null
+  }
+ },
+ {
+  "seq": 206,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.483081,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "utterance_id": "c_fe666dbe:u6",
+   "speaker": "business",
+   "text": "And yes, we have",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 207,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.483131,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "utterance_id": "c_46f44fca:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we can send a volunteer to pick it up,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 208,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.483169,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u7",
+   "speaker": "agent",
+   "text": "Wonderful, thank you. Can you take fresh or refrigerated food?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 209,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4832034,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_f8946656",
+   "target_id": "t16",
+   "utterance_id": "c_f8946656:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of Luigi's Trattoria. They have surplus food that would otherwise be thrown out tonight: 12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today. It needs to be picked up before 10 pm. Could your organization pick it up?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 210,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4864151,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "utterance_id": "c_cb3b7825:u5",
+   "speaker": "agent",
+   "text": "Wonderful, thank you. Can you take fresh or refrigerated food?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 211,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4928744,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "utterance_id": "c_05a73f4c:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of Luigi's Trattoria. They have surplus food that would otherwise be thrown out tonight: 12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today. It needs to be picked up before 10 pm. Could your organization pick it up?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 212,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.494015,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_dc11c860",
+   "target_id": "t15",
+   "utterance_id": "c_dc11c860:u4",
+   "speaker": "agent",
+   "text": "Alright, thanks anyway for your time. Take care!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 213,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.495249,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_91762bab",
+   "target_id": "t11",
+   "utterance_id": "c_91762bab:u5",
+   "speaker": "agent",
+   "text": "Just to make sure I've got it right, is that a yes or a no?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 214,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4952881,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "utterance_id": "c_fe666dbe:u6",
+   "speaker": "business",
+   "text": "And yes, we have a walk-in cooler, so fresh",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 215,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4956706,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "utterance_id": "c_46f44fca:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we can send a volunteer to pick it up, about 15 minutes from now.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 216,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.4983208,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u7",
+   "speaker": "agent",
+   "text": "Wonderful, thank you. Can you take fresh or refrigerated food?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 217,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.501921,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_5973011a",
+   "target_id": "t18",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 218,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5031796,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_f8946656",
+   "target_id": "t16",
+   "utterance_id": "c_f8946656:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 219,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.503256,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_8d837c78",
+   "target_id": "t17",
+   "state": "failed",
+   "role": "inquiry",
+   "reason": "No answer"
+  }
+ },
+ {
+  "seq": 220,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5046544,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "utterance_id": "c_cb3b7825:u6",
+   "speaker": "business",
+   "text": "And yes, we have",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 221,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.504702,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "utterance_id": "c_05a73f4c:u2",
+   "speaker": "business",
+   "text": "Oh, that's wonderful.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 222,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5047557,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_91762bab",
+   "target_id": "t11",
+   "utterance_id": "c_91762bab:u5",
+   "speaker": "agent",
+   "text": "Just to make sure I've got it right, is that a yes or a no?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 223,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5073295,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "utterance_id": "c_fe666dbe:u6",
+   "speaker": "business",
+   "text": "And yes, we have a walk-in cooler, so fresh food is no problem.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 224,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5089045,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "utterance_id": "c_46f44fca:u5",
+   "speaker": "agent",
+   "text": "Wonderful, thank you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 225,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5089493,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_dc11c860",
+   "target_id": "t15",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 226,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5115335,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u8",
+   "speaker": "business",
+   "text": "Yes, we take fresh",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 227,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5115614,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_f8946656",
+   "target_id": "t16",
+   "utterance_id": "c_f8946656:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're at capacity tonight, our",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 228,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5115821,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "utterance_id": "c_cb3b7825:u6",
+   "speaker": "business",
+   "text": "And yes, we have a walk-in cooler, so fresh",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 229,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5116005,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "utterance_id": "c_05a73f4c:u2",
+   "speaker": "business",
+   "text": "Oh, that's wonderful. Let me check",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 230,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5116148,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_5973011a",
+   "target_id": "t18",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 231,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5128508,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_91762bab",
+   "target_id": "t11",
+   "utterance_id": "c_91762bab:u6",
+   "speaker": "business",
+   "text": "Okay, was",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 232,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5130765,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "utterance_id": "c_46f44fca:u5",
+   "speaker": "agent",
+   "text": "Wonderful, thank you. Can you take fresh or refrigerated food?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 233,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5131223,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 234,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.515888,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "Rise Up Community Fridge is at capacity tonight",
+   "source_call_id": "c_dc11c860"
+  }
+ },
+ {
+  "seq": 235,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5184717,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u8",
+   "speaker": "business",
+   "text": "Yes, we take fresh and refrigerated food, we",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 236,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5185037,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_f8946656",
+   "target_id": "t16",
+   "utterance_id": "c_f8946656:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're at capacity tonight, our fridges are completely full.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 237,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5200565,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "utterance_id": "c_cb3b7825:u6",
+   "speaker": "business",
+   "text": "And yes, we have a walk-in cooler, so fresh food is no problem.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 238,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5233576,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "utterance_id": "c_05a73f4c:u2",
+   "speaker": "business",
+   "text": "Oh, that's wonderful. Let me check with our driver.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 239,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.526116,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_91762bab",
+   "target_id": "t11",
+   "utterance_id": "c_91762bab:u6",
+   "speaker": "business",
+   "text": "Okay, was there anything",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 240,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5261436,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "utterance_id": "c_46f44fca:u5",
+   "speaker": "agent",
+   "text": "Wonderful, thank you. Can you take fresh or refrigerated food?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 241,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5275333,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_5973011a",
+   "target_id": "t18",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 242,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.528963,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "result": {
+    "available": "yes",
+    "item": "12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": 30,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": null,
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": "And yes, we have a walk-in cooler, so fresh food is no problem.",
+    "needs": [],
+    "perishables_ok": true,
+    "can_pickup": true
+   }
+  }
+ },
+ {
+  "seq": 243,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5303416,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u8",
+   "speaker": "business",
+   "text": "Yes, we take fresh and refrigerated food, we have the space tonight.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 244,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.531973,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_f8946656",
+   "target_id": "t16",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 245,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5347655,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 246,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5377717,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "utterance_id": "c_05a73f4c:u3",
+   "speaker": "agent",
+   "text": "Yep, no problem.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 247,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5378447,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_91762bab",
+   "target_id": "t11",
+   "utterance_id": "c_91762bab:u6",
+   "speaker": "business",
+   "text": "Okay, was there anything else you needed?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 248,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.541406,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "utterance_id": "c_46f44fca:u6",
+   "speaker": "business",
+   "text": "And yes, we have",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 249,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5418892,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_5973011a",
+   "target_id": "t18",
+   "utterance_id": "c_5973011a:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of Luigi's Trattoria. They have surplus food that would otherwise be thrown out tonight: 12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today. It needs to be picked up before 10 pm. Could your organization pick it up?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 250,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5446208,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "utterance_id": "c_fe666dbe:u8",
+   "speaker": "agent",
+   "text": "Perfect, thanks so much for checking. Have a good one!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 251,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5489135,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 252,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.551002,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_f8946656",
+   "target_id": "t16",
+   "result": {
+    "available": "no",
+    "item": "12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": "Oh, I'm sorry, we're at capacity tonight, our fridges are completely full.",
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 253,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5555959,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "utterance_id": "c_05a73f4c:u3",
+   "speaker": "agent",
+   "text": "Yep, no problem.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 254,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5594735,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "result": {
+    "available": "yes",
+    "item": "12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": 20,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": null,
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": "And yes, we have a walk-in cooler, so fresh food is no problem.",
+    "needs": [],
+    "perishables_ok": true,
+    "can_pickup": true
+   }
+  }
+ },
+ {
+  "seq": 255,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5610518,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "utterance_id": "c_46f44fca:u6",
+   "speaker": "business",
+   "text": "And yes, we have a walk-in cooler, so fresh",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 256,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.561081,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_5973011a",
+   "target_id": "t18",
+   "utterance_id": "c_5973011a:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 257,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5611005,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_91762bab",
+   "target_id": "t11",
+   "state": "failed",
+   "role": "inquiry",
+   "reason": "Call ended without an answer"
+  }
+ },
+ {
+  "seq": 258,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5625875,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "result": {
+    "available": "yes",
+    "item": "12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": 45,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": null,
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": true,
+    "can_pickup": true
+   }
+  }
+ },
+ {
+  "seq": 259,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5639753,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_f8946656",
+   "target_id": "t16",
+   "utterance_id": "c_f8946656:u4",
+   "speaker": "agent",
+   "text": "Okay, no worries. Thanks so much for checking. Have a good one!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 260,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5652974,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_fe666dbe",
+   "target_id": "t8",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 261,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5669048,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "utterance_id": "c_05a73f4c:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we can send",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 262,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5669842,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "utterance_id": "c_cb3b7825:u8",
+   "speaker": "agent",
+   "text": "Perfect, thanks so much for checking. Have a good one!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 263,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5694995,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "utterance_id": "c_46f44fca:u6",
+   "speaker": "business",
+   "text": "And yes, we have a walk-in cooler, so fresh food is no problem.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 264,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5742195,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_5973011a",
+   "target_id": "t18",
+   "utterance_id": "c_5973011a:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're at capacity tonight, our",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 265,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5742686,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "utterance_id": "c_415d277a:u10",
+   "speaker": "agent",
+   "text": "Okay, thank you so much for your help. Take care!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 266,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5789046,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "St. Anne's Soup Kitchen can pick it up in about 30 min, first confirmed pickup",
+   "source_call_id": "c_fe666dbe"
+  }
+ },
+ {
+  "seq": 267,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.585184,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "utterance_id": "c_05a73f4c:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we can send a volunteer to pick it up,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 268,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5852258,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_f8946656",
+   "target_id": "t16",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 269,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.5888643,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_5973011a",
+   "target_id": "t18",
+   "utterance_id": "c_5973011a:u2",
+   "speaker": "business",
+   "text": "Oh, I'm sorry, we're at capacity tonight, our fridges are completely full.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 270,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.59903,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 271,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6034079,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_cb3b7825",
+   "target_id": "t9",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 272,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6072342,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "utterance_id": "c_05a73f4c:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we can send a volunteer to pick it up, about 25 minutes from now.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 273,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6093156,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "Neighbors Helping Neighbors is at capacity tonight",
+   "source_call_id": "c_f8946656"
+  }
+ },
+ {
+  "seq": 274,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6109924,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_415d277a",
+   "target_id": "t6",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 275,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6126108,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_5973011a",
+   "target_id": "t18",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 276,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6153007,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "result": {
+    "available": "yes",
+    "item": "12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": 15,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": null,
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": "And yes, we have a walk-in cooler, so fresh food is no problem.",
+    "needs": [],
+    "perishables_ok": true,
+    "can_pickup": true
+   }
+  }
+ },
+ {
+  "seq": 277,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6192844,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "Faster pickup: Harvest Hope Pantry in about 20 min",
+   "source_call_id": "c_cb3b7825"
+  }
+ },
+ {
+  "seq": 278,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6212583,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "utterance_id": "c_05a73f4c:u5",
+   "speaker": "agent",
+   "text": "Wonderful, thank you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 279,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6213024,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "2 confirmed matches found, no further calls needed",
+   "source_call_id": null
+  }
+ },
+ {
+  "seq": 280,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6239974,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_5973011a",
+   "target_id": "t18",
+   "result": {
+    "available": "no",
+    "item": "12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": "Oh, I'm sorry, we're at capacity tonight, our fridges are completely full.",
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 281,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6264334,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "utterance_id": "c_46f44fca:u8",
+   "speaker": "agent",
+   "text": "Okay, thank you so much for your help. Take care!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 282,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.628323,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "utterance_id": "c_05a73f4c:u5",
+   "speaker": "agent",
+   "text": "Wonderful, thank you. Can you take fresh or refrigerated food?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 283,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6283796,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_5973011a",
+   "target_id": "t18",
+   "utterance_id": "c_5973011a:u4",
+   "speaker": "agent",
+   "text": "Alright, thanks anyway for your time. Take care!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 284,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6306453,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "utterance_id": "c_05a73f4c:u5",
+   "speaker": "agent",
+   "text": "Wonderful, thank you. Can you take fresh or refrigerated food?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 285,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6341946,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "utterance_id": "c_05a73f4c:u6",
+   "speaker": "business",
+   "text": "And yes, we have",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 286,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.634259,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "utterance_id": "c_05a73f4c:u6",
+   "speaker": "business",
+   "text": "And yes, we have a walk-in cooler, so fresh",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 287,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6342988,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "utterance_id": "c_05a73f4c:u6",
+   "speaker": "business",
+   "text": "And yes, we have a walk-in cooler, so fresh food is no problem.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 288,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6441293,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_46f44fca",
+   "target_id": "t12",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 289,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6527054,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_5973011a",
+   "target_id": "t18",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 290,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.654926,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 291,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.656576,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "Faster pickup: Open Hands Pantry in about 15 min",
+   "source_call_id": "c_46f44fca"
+  }
+ },
+ {
+  "seq": 292,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6601403,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "Hope Shelter Kitchen is at capacity tonight",
+   "source_call_id": "c_5973011a"
+  }
+ },
+ {
+  "seq": 293,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.661489,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "result": {
+    "available": "yes",
+    "item": "12 trays of pasta primavera, 40 turkey sandwiches and 3 gallons of tomato soup, all made today",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": 25,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": null,
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": "And yes, we have a walk-in cooler, so fresh food is no problem.",
+    "needs": [],
+    "perishables_ok": true,
+    "can_pickup": true
+   }
+  }
+ },
+ {
+  "seq": 294,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6628757,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "utterance_id": "c_05a73f4c:u8",
+   "speaker": "agent",
+   "text": "Great, that's really helpful. Thanks for your time, bye now!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 295,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.67106,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_05a73f4c",
+   "target_id": "t19",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 296,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6723518,
+  "type": "swarm.ranked",
+  "data": {
+   "rankings": [
+    {
+     "call_id": "c_cb3b7825",
+     "target_id": "t9",
+     "rank": 1,
+     "score": 0.848,
+     "reasons": [
+      "Can pick up",
+      "~20 min away",
+      "2.3 mi",
+      "Takes fresh food"
+     ]
+    },
+    {
+     "call_id": "c_46f44fca",
+     "target_id": "t12",
+     "rank": 2,
+     "score": 0.833,
+     "reasons": [
+      "Can pick up",
+      "~15 min away",
+      "4.1 mi",
+      "Takes fresh food"
+     ]
+    },
+    {
+     "call_id": "c_fe666dbe",
+     "target_id": "t8",
+     "rank": 3,
+     "score": 0.717,
+     "reasons": [
+      "Can pick up",
+      "~30 min away",
+      "2.3 mi",
+      "Takes fresh food"
+     ]
+    },
+    {
+     "call_id": "c_05a73f4c",
+     "target_id": "t19",
+     "rank": 4,
+     "score": 0.716,
+     "reasons": [
+      "Can pick up",
+      "~25 min away",
+      "3.8 mi",
+      "Takes fresh food"
+     ]
+    },
+    {
+     "call_id": "c_415d277a",
+     "target_id": "t6",
+     "rank": 5,
+     "score": 0.535,
+     "reasons": [
+      "Can pick up",
+      "~45 min away",
+      "2 mi",
+      "Takes fresh food"
+     ]
+    },
+    {
+     "call_id": "c_7ce380ce",
+     "target_id": "t3",
+     "rank": 6,
+     "score": 0.485,
+     "reasons": [
+      "Drop-off only",
+      "0.8 mi"
+     ]
+    },
+    {
+     "call_id": "c_fe51d071",
+     "target_id": "t5",
+     "rank": 7,
+     "score": 0.296,
+     "reasons": [
+      "Can pick up",
+      "1.6 mi",
+      "No fresh food"
+     ]
+    }
+   ],
+   "best_call_id": "c_cb3b7825",
+   "criteria": "Soonest pickup first, then distance and whether they take fresh food"
+  }
+ },
+ {
+  "seq": 297,
+  "swarm_id": "s_3a9df9236f",
+  "ts": 1794004827.6737685,
+  "type": "swarm.completed",
+  "data": {
+   "status": "completed",
+   "calls_made": 19,
+   "calls_completed": 15,
+   "calls_failed": 4,
+   "positives": 5,
+   "elapsed_s": 0.6,
+   "error": null
+  }
+ }
+]

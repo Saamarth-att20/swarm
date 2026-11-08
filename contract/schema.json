@@ -1,0 +1,1581 @@
+{
+  "$defs": {
+    "CallExtractedData": {
+      "properties": {
+        "call_id": {
+          "title": "Call Id",
+          "type": "string"
+        },
+        "target_id": {
+          "title": "Target Id",
+          "type": "string"
+        },
+        "result": {
+          "$ref": "#/$defs/ExtractedResult"
+        }
+      },
+      "required": [
+        "call_id",
+        "target_id",
+        "result"
+      ],
+      "title": "CallExtractedData",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "CallExtractedEvent": {
+      "properties": {
+        "seq": {
+          "title": "Seq",
+          "type": "integer"
+        },
+        "swarm_id": {
+          "title": "Swarm Id",
+          "type": "string"
+        },
+        "ts": {
+          "title": "Ts",
+          "type": "number"
+        },
+        "type": {
+          "const": "call.extracted",
+          "default": "call.extracted",
+          "title": "Type",
+          "type": "string"
+        },
+        "data": {
+          "$ref": "#/$defs/CallExtractedData"
+        }
+      },
+      "required": [
+        "seq",
+        "swarm_id",
+        "ts",
+        "data",
+        "type"
+      ],
+      "title": "CallExtractedEvent",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "CallStateData": {
+      "properties": {
+        "call_id": {
+          "title": "Call Id",
+          "type": "string"
+        },
+        "target_id": {
+          "title": "Target Id",
+          "type": "string"
+        },
+        "state": {
+          "enum": [
+            "queued",
+            "dialing",
+            "talking",
+            "extracting",
+            "completed",
+            "failed",
+            "cancelled"
+          ],
+          "title": "State",
+          "type": "string"
+        },
+        "role": {
+          "default": "inquiry",
+          "enum": [
+            "inquiry",
+            "reserve"
+          ],
+          "title": "Role",
+          "type": "string"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reason"
+        }
+      },
+      "required": [
+        "call_id",
+        "target_id",
+        "state"
+      ],
+      "title": "CallStateData",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "CallStateEvent": {
+      "properties": {
+        "seq": {
+          "title": "Seq",
+          "type": "integer"
+        },
+        "swarm_id": {
+          "title": "Swarm Id",
+          "type": "string"
+        },
+        "ts": {
+          "title": "Ts",
+          "type": "number"
+        },
+        "type": {
+          "const": "call.state",
+          "default": "call.state",
+          "title": "Type",
+          "type": "string"
+        },
+        "data": {
+          "$ref": "#/$defs/CallStateData"
+        }
+      },
+      "required": [
+        "seq",
+        "swarm_id",
+        "ts",
+        "data",
+        "type"
+      ],
+      "title": "CallStateEvent",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "CallTranscriptData": {
+      "properties": {
+        "call_id": {
+          "title": "Call Id",
+          "type": "string"
+        },
+        "target_id": {
+          "title": "Target Id",
+          "type": "string"
+        },
+        "utterance_id": {
+          "title": "Utterance Id",
+          "type": "string"
+        },
+        "speaker": {
+          "enum": [
+            "agent",
+            "business"
+          ],
+          "title": "Speaker",
+          "type": "string"
+        },
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "is_final": {
+          "title": "Is Final",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "call_id",
+        "target_id",
+        "utterance_id",
+        "speaker",
+        "text",
+        "is_final"
+      ],
+      "title": "CallTranscriptData",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "CallTranscriptEvent": {
+      "properties": {
+        "seq": {
+          "title": "Seq",
+          "type": "integer"
+        },
+        "swarm_id": {
+          "title": "Swarm Id",
+          "type": "string"
+        },
+        "ts": {
+          "title": "Ts",
+          "type": "number"
+        },
+        "type": {
+          "const": "call.transcript",
+          "default": "call.transcript",
+          "title": "Type",
+          "type": "string"
+        },
+        "data": {
+          "$ref": "#/$defs/CallTranscriptData"
+        }
+      },
+      "required": [
+        "seq",
+        "swarm_id",
+        "ts",
+        "data",
+        "type"
+      ],
+      "title": "CallTranscriptEvent",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "Capabilities": {
+      "properties": {
+        "version": {
+          "title": "Version",
+          "type": "string"
+        },
+        "live_available": {
+          "title": "Live Available",
+          "type": "boolean"
+        },
+        "live_missing": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Live Missing",
+          "type": "array"
+        },
+        "llm_provider": {
+          "title": "Llm Provider",
+          "type": "string"
+        },
+        "places_provider": {
+          "enum": [
+            "google",
+            "mock"
+          ],
+          "title": "Places Provider",
+          "type": "string"
+        },
+        "demo_targets": {
+          "title": "Demo Targets",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "version",
+        "live_available",
+        "live_missing",
+        "llm_provider",
+        "places_provider",
+        "demo_targets"
+      ],
+      "title": "Capabilities",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "CreateSwarmRequest": {
+      "properties": {
+        "query": {
+          "maxLength": 500,
+          "minLength": 3,
+          "title": "Query",
+          "type": "string"
+        },
+        "lat": {
+          "anyOf": [
+            {
+              "maximum": 90,
+              "minimum": -90,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Lat"
+        },
+        "lng": {
+          "anyOf": [
+            {
+              "maximum": 180,
+              "minimum": -180,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Lng"
+        },
+        "radius_miles": {
+          "default": 10,
+          "exclusiveMinimum": 0,
+          "maximum": 50,
+          "title": "Radius Miles",
+          "type": "number"
+        },
+        "mode": {
+          "default": "simulated",
+          "enum": [
+            "live",
+            "simulated"
+          ],
+          "title": "Mode",
+          "type": "string"
+        },
+        "priority": {
+          "anyOf": [
+            {
+              "enum": [
+                "balanced",
+                "price",
+                "distance",
+                "speed"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Priority"
+        },
+        "max_calls": {
+          "anyOf": [
+            {
+              "maximum": 30,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Max Calls"
+        },
+        "stop_after_matches": {
+          "anyOf": [
+            {
+              "maximum": 10,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Stop After Matches"
+        },
+        "contact_name": {
+          "anyOf": [
+            {
+              "maxLength": 60,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Contact Name"
+        },
+        "purpose": {
+          "default": "find",
+          "enum": [
+            "find",
+            "donate"
+          ],
+          "title": "Purpose",
+          "type": "string"
+        },
+        "donor_address": {
+          "anyOf": [
+            {
+              "maxLength": 120,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Donor Address"
+        },
+        "pickup_by": {
+          "anyOf": [
+            {
+              "maxLength": 60,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Pickup By"
+        },
+        "user_id": {
+          "anyOf": [
+            {
+              "maxLength": 64,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "User Id"
+        }
+      },
+      "required": [
+        "query"
+      ],
+      "title": "CreateSwarmRequest",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "CreateSwarmResponse": {
+      "properties": {
+        "swarm_id": {
+          "title": "Swarm Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "swarm_id"
+      ],
+      "title": "CreateSwarmResponse",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "ExtractedResult": {
+      "properties": {
+        "available": {
+          "enum": [
+            "yes",
+            "no",
+            "partial",
+            "unknown"
+          ],
+          "title": "Available",
+          "type": "string"
+        },
+        "item": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Item"
+        },
+        "price": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Price"
+        },
+        "currency": {
+          "default": "USD",
+          "title": "Currency",
+          "type": "string"
+        },
+        "quantity": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Quantity"
+        },
+        "can_hold": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Can Hold"
+        },
+        "wait_minutes": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Wait Minutes"
+        },
+        "alternatives": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Alternatives",
+          "type": "array"
+        },
+        "referral_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Referral Name"
+        },
+        "referral_phone": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Referral Phone"
+        },
+        "closed": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Closed"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Notes"
+        },
+        "confidence": {
+          "default": 0.8,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "hours": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Hours"
+        },
+        "requirements": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Requirements"
+        },
+        "needs": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Needs",
+          "type": "array"
+        },
+        "perishables_ok": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Perishables Ok"
+        },
+        "can_pickup": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Can Pickup"
+        }
+      },
+      "required": [
+        "available"
+      ],
+      "title": "ExtractedResult",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "Intent": {
+      "properties": {
+        "raw_query": {
+          "title": "Raw Query",
+          "type": "string"
+        },
+        "item": {
+          "title": "Item",
+          "type": "string"
+        },
+        "category": {
+          "title": "Category",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "product",
+            "service",
+            "appointment",
+            "food",
+            "donation"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "place_query": {
+          "title": "Place Query",
+          "type": "string"
+        },
+        "urgency": {
+          "default": "now",
+          "enum": [
+            "now",
+            "today",
+            "flexible"
+          ],
+          "title": "Urgency",
+          "type": "string"
+        },
+        "priority": {
+          "default": "balanced",
+          "enum": [
+            "balanced",
+            "price",
+            "distance",
+            "speed"
+          ],
+          "title": "Priority",
+          "type": "string"
+        },
+        "radius_miles": {
+          "title": "Radius Miles",
+          "type": "number"
+        },
+        "summary": {
+          "title": "Summary",
+          "type": "string"
+        }
+      },
+      "required": [
+        "raw_query",
+        "item",
+        "category",
+        "kind",
+        "place_query",
+        "radius_miles",
+        "summary"
+      ],
+      "title": "Intent",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "LatLng": {
+      "properties": {
+        "lat": {
+          "title": "Lat",
+          "type": "number"
+        },
+        "lng": {
+          "title": "Lng",
+          "type": "number"
+        }
+      },
+      "required": [
+        "lat",
+        "lng"
+      ],
+      "title": "LatLng",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "RankedItem": {
+      "properties": {
+        "call_id": {
+          "title": "Call Id",
+          "type": "string"
+        },
+        "target_id": {
+          "title": "Target Id",
+          "type": "string"
+        },
+        "rank": {
+          "title": "Rank",
+          "type": "integer"
+        },
+        "score": {
+          "title": "Score",
+          "type": "number"
+        },
+        "reasons": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Reasons",
+          "type": "array"
+        }
+      },
+      "required": [
+        "call_id",
+        "target_id",
+        "rank",
+        "score",
+        "reasons"
+      ],
+      "title": "RankedItem",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "ReserveResponse": {
+      "properties": {
+        "ok": {
+          "title": "Ok",
+          "type": "boolean"
+        },
+        "reserve_call_id": {
+          "title": "Reserve Call Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "ok",
+        "reserve_call_id"
+      ],
+      "title": "ReserveResponse",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "SwarmCompletedData": {
+      "properties": {
+        "status": {
+          "enum": [
+            "completed",
+            "cancelled",
+            "error"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "calls_made": {
+          "title": "Calls Made",
+          "type": "integer"
+        },
+        "calls_completed": {
+          "title": "Calls Completed",
+          "type": "integer"
+        },
+        "calls_failed": {
+          "title": "Calls Failed",
+          "type": "integer"
+        },
+        "positives": {
+          "title": "Positives",
+          "type": "integer"
+        },
+        "elapsed_s": {
+          "title": "Elapsed S",
+          "type": "number"
+        },
+        "error": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Error"
+        }
+      },
+      "required": [
+        "status",
+        "calls_made",
+        "calls_completed",
+        "calls_failed",
+        "positives",
+        "elapsed_s"
+      ],
+      "title": "SwarmCompletedData",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "SwarmCompletedEvent": {
+      "properties": {
+        "seq": {
+          "title": "Seq",
+          "type": "integer"
+        },
+        "swarm_id": {
+          "title": "Swarm Id",
+          "type": "string"
+        },
+        "ts": {
+          "title": "Ts",
+          "type": "number"
+        },
+        "type": {
+          "const": "swarm.completed",
+          "default": "swarm.completed",
+          "title": "Type",
+          "type": "string"
+        },
+        "data": {
+          "$ref": "#/$defs/SwarmCompletedData"
+        }
+      },
+      "required": [
+        "seq",
+        "swarm_id",
+        "ts",
+        "data",
+        "type"
+      ],
+      "title": "SwarmCompletedEvent",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "SwarmCreatedData": {
+      "properties": {
+        "query": {
+          "title": "Query",
+          "type": "string"
+        },
+        "mode": {
+          "enum": [
+            "live",
+            "simulated"
+          ],
+          "title": "Mode",
+          "type": "string"
+        },
+        "intent": {
+          "$ref": "#/$defs/Intent"
+        },
+        "origin": {
+          "$ref": "#/$defs/LatLng"
+        },
+        "targets": {
+          "items": {
+            "$ref": "#/$defs/Target"
+          },
+          "title": "Targets",
+          "type": "array"
+        }
+      },
+      "required": [
+        "query",
+        "mode",
+        "intent",
+        "origin",
+        "targets"
+      ],
+      "title": "SwarmCreatedData",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "SwarmCreatedEvent": {
+      "properties": {
+        "seq": {
+          "title": "Seq",
+          "type": "integer"
+        },
+        "swarm_id": {
+          "title": "Swarm Id",
+          "type": "string"
+        },
+        "ts": {
+          "title": "Ts",
+          "type": "number"
+        },
+        "type": {
+          "const": "swarm.created",
+          "default": "swarm.created",
+          "title": "Type",
+          "type": "string"
+        },
+        "data": {
+          "$ref": "#/$defs/SwarmCreatedData"
+        }
+      },
+      "required": [
+        "seq",
+        "swarm_id",
+        "ts",
+        "data",
+        "type"
+      ],
+      "title": "SwarmCreatedEvent",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "SwarmDetail": {
+      "properties": {
+        "swarm": {
+          "$ref": "#/$defs/SwarmSummary"
+        },
+        "events": {
+          "items": {
+            "discriminator": {
+              "mapping": {
+                "call.extracted": "#/$defs/CallExtractedEvent",
+                "call.state": "#/$defs/CallStateEvent",
+                "call.transcript": "#/$defs/CallTranscriptEvent",
+                "swarm.completed": "#/$defs/SwarmCompletedEvent",
+                "swarm.created": "#/$defs/SwarmCreatedEvent",
+                "swarm.knowledge": "#/$defs/SwarmKnowledgeEvent",
+                "swarm.ranked": "#/$defs/SwarmRankedEvent",
+                "swarm.reroute": "#/$defs/SwarmRerouteEvent",
+                "swarm.reserved": "#/$defs/SwarmReservedEvent"
+              },
+              "propertyName": "type"
+            },
+            "oneOf": [
+              {
+                "$ref": "#/$defs/SwarmCreatedEvent"
+              },
+              {
+                "$ref": "#/$defs/CallStateEvent"
+              },
+              {
+                "$ref": "#/$defs/CallTranscriptEvent"
+              },
+              {
+                "$ref": "#/$defs/CallExtractedEvent"
+              },
+              {
+                "$ref": "#/$defs/SwarmRerouteEvent"
+              },
+              {
+                "$ref": "#/$defs/SwarmKnowledgeEvent"
+              },
+              {
+                "$ref": "#/$defs/SwarmRankedEvent"
+              },
+              {
+                "$ref": "#/$defs/SwarmReservedEvent"
+              },
+              {
+                "$ref": "#/$defs/SwarmCompletedEvent"
+              }
+            ]
+          },
+          "title": "Events",
+          "type": "array"
+        },
+        "last_seq": {
+          "title": "Last Seq",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "swarm",
+        "events",
+        "last_seq"
+      ],
+      "title": "SwarmDetail",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "SwarmKnowledgeData": {
+      "properties": {
+        "note": {
+          "title": "Note",
+          "type": "string"
+        },
+        "source_call_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Call Id"
+        }
+      },
+      "required": [
+        "note"
+      ],
+      "title": "SwarmKnowledgeData",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "SwarmKnowledgeEvent": {
+      "properties": {
+        "seq": {
+          "title": "Seq",
+          "type": "integer"
+        },
+        "swarm_id": {
+          "title": "Swarm Id",
+          "type": "string"
+        },
+        "ts": {
+          "title": "Ts",
+          "type": "number"
+        },
+        "type": {
+          "const": "swarm.knowledge",
+          "default": "swarm.knowledge",
+          "title": "Type",
+          "type": "string"
+        },
+        "data": {
+          "$ref": "#/$defs/SwarmKnowledgeData"
+        }
+      },
+      "required": [
+        "seq",
+        "swarm_id",
+        "ts",
+        "data",
+        "type"
+      ],
+      "title": "SwarmKnowledgeEvent",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "SwarmRankedData": {
+      "properties": {
+        "rankings": {
+          "items": {
+            "$ref": "#/$defs/RankedItem"
+          },
+          "title": "Rankings",
+          "type": "array"
+        },
+        "best_call_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Best Call Id"
+        },
+        "criteria": {
+          "title": "Criteria",
+          "type": "string"
+        }
+      },
+      "required": [
+        "rankings",
+        "criteria"
+      ],
+      "title": "SwarmRankedData",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "SwarmRankedEvent": {
+      "properties": {
+        "seq": {
+          "title": "Seq",
+          "type": "integer"
+        },
+        "swarm_id": {
+          "title": "Swarm Id",
+          "type": "string"
+        },
+        "ts": {
+          "title": "Ts",
+          "type": "number"
+        },
+        "type": {
+          "const": "swarm.ranked",
+          "default": "swarm.ranked",
+          "title": "Type",
+          "type": "string"
+        },
+        "data": {
+          "$ref": "#/$defs/SwarmRankedData"
+        }
+      },
+      "required": [
+        "seq",
+        "swarm_id",
+        "ts",
+        "data",
+        "type"
+      ],
+      "title": "SwarmRankedEvent",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "SwarmRerouteData": {
+      "properties": {
+        "from_call_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "From Call Id"
+        },
+        "from_target_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "From Target Id"
+        },
+        "to_target_id": {
+          "title": "To Target Id",
+          "type": "string"
+        },
+        "to_call_id": {
+          "title": "To Call Id",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "closed",
+            "no_stock",
+            "failed",
+            "referral",
+            "backup"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "reason": {
+          "title": "Reason",
+          "type": "string"
+        },
+        "new_target": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Target"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "to_target_id",
+        "to_call_id",
+        "kind",
+        "reason"
+      ],
+      "title": "SwarmRerouteData",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "SwarmRerouteEvent": {
+      "properties": {
+        "seq": {
+          "title": "Seq",
+          "type": "integer"
+        },
+        "swarm_id": {
+          "title": "Swarm Id",
+          "type": "string"
+        },
+        "ts": {
+          "title": "Ts",
+          "type": "number"
+        },
+        "type": {
+          "const": "swarm.reroute",
+          "default": "swarm.reroute",
+          "title": "Type",
+          "type": "string"
+        },
+        "data": {
+          "$ref": "#/$defs/SwarmRerouteData"
+        }
+      },
+      "required": [
+        "seq",
+        "swarm_id",
+        "ts",
+        "data",
+        "type"
+      ],
+      "title": "SwarmRerouteEvent",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "SwarmReservedData": {
+      "properties": {
+        "call_id": {
+          "title": "Call Id",
+          "type": "string"
+        },
+        "target_id": {
+          "title": "Target Id",
+          "type": "string"
+        },
+        "reserve_call_id": {
+          "title": "Reserve Call Id",
+          "type": "string"
+        },
+        "success": {
+          "title": "Success",
+          "type": "boolean"
+        },
+        "confirmation": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Confirmation"
+        },
+        "message": {
+          "title": "Message",
+          "type": "string"
+        }
+      },
+      "required": [
+        "call_id",
+        "target_id",
+        "reserve_call_id",
+        "success",
+        "message"
+      ],
+      "title": "SwarmReservedData",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "SwarmReservedEvent": {
+      "properties": {
+        "seq": {
+          "title": "Seq",
+          "type": "integer"
+        },
+        "swarm_id": {
+          "title": "Swarm Id",
+          "type": "string"
+        },
+        "ts": {
+          "title": "Ts",
+          "type": "number"
+        },
+        "type": {
+          "const": "swarm.reserved",
+          "default": "swarm.reserved",
+          "title": "Type",
+          "type": "string"
+        },
+        "data": {
+          "$ref": "#/$defs/SwarmReservedData"
+        }
+      },
+      "required": [
+        "seq",
+        "swarm_id",
+        "ts",
+        "data",
+        "type"
+      ],
+      "title": "SwarmReservedEvent",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "SwarmSummary": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "query": {
+          "title": "Query",
+          "type": "string"
+        },
+        "mode": {
+          "enum": [
+            "live",
+            "simulated"
+          ],
+          "title": "Mode",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "running",
+            "completed",
+            "cancelled",
+            "error"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "created_at": {
+          "title": "Created At",
+          "type": "number"
+        }
+      },
+      "required": [
+        "id",
+        "query",
+        "mode",
+        "status",
+        "created_at"
+      ],
+      "title": "SwarmSummary",
+      "type": "object",
+      "additionalProperties": false
+    },
+    "Target": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "address": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Address"
+        },
+        "phone": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Phone"
+        },
+        "lat": {
+          "title": "Lat",
+          "type": "number"
+        },
+        "lng": {
+          "title": "Lng",
+          "type": "number"
+        },
+        "distance_miles": {
+          "title": "Distance Miles",
+          "type": "number"
+        },
+        "open_now": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Open Now"
+        },
+        "rating": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rating"
+        },
+        "tier": {
+          "default": "primary",
+          "enum": [
+            "primary",
+            "backup"
+          ],
+          "title": "Tier",
+          "type": "string"
+        },
+        "source": {
+          "default": "mock",
+          "enum": [
+            "places",
+            "mock",
+            "demo",
+            "referral"
+          ],
+          "title": "Source",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "lat",
+        "lng",
+        "distance_miles"
+      ],
+      "title": "Target",
+      "type": "object",
+      "additionalProperties": false
+    }
+  },
+  "description": "Swarm Dial wire contract v1.0.0",
+  "properties": {
+    "version": {
+      "default": "1.0.0",
+      "title": "Version",
+      "type": "string"
+    },
+    "event": {
+      "discriminator": {
+        "mapping": {
+          "call.extracted": "#/$defs/CallExtractedEvent",
+          "call.state": "#/$defs/CallStateEvent",
+          "call.transcript": "#/$defs/CallTranscriptEvent",
+          "swarm.completed": "#/$defs/SwarmCompletedEvent",
+          "swarm.created": "#/$defs/SwarmCreatedEvent",
+          "swarm.knowledge": "#/$defs/SwarmKnowledgeEvent",
+          "swarm.ranked": "#/$defs/SwarmRankedEvent",
+          "swarm.reroute": "#/$defs/SwarmRerouteEvent",
+          "swarm.reserved": "#/$defs/SwarmReservedEvent"
+        },
+        "propertyName": "type"
+      },
+      "oneOf": [
+        {
+          "$ref": "#/$defs/SwarmCreatedEvent"
+        },
+        {
+          "$ref": "#/$defs/CallStateEvent"
+        },
+        {
+          "$ref": "#/$defs/CallTranscriptEvent"
+        },
+        {
+          "$ref": "#/$defs/CallExtractedEvent"
+        },
+        {
+          "$ref": "#/$defs/SwarmRerouteEvent"
+        },
+        {
+          "$ref": "#/$defs/SwarmKnowledgeEvent"
+        },
+        {
+          "$ref": "#/$defs/SwarmRankedEvent"
+        },
+        {
+          "$ref": "#/$defs/SwarmReservedEvent"
+        },
+        {
+          "$ref": "#/$defs/SwarmCompletedEvent"
+        }
+      ],
+      "title": "Event"
+    },
+    "create_swarm_request": {
+      "$ref": "#/$defs/CreateSwarmRequest"
+    },
+    "create_swarm_response": {
+      "$ref": "#/$defs/CreateSwarmResponse"
+    },
+    "swarm_detail": {
+      "$ref": "#/$defs/SwarmDetail"
+    },
+    "reserve_response": {
+      "$ref": "#/$defs/ReserveResponse"
+    },
+    "capabilities": {
+      "$ref": "#/$defs/Capabilities"
+    }
+  },
+  "required": [
+    "event",
+    "create_swarm_request",
+    "create_swarm_response",
+    "swarm_detail",
+    "reserve_response",
+    "capabilities"
+  ],
+  "title": "ContractBundle",
+  "type": "object",
+  "additionalProperties": false
+}

@@ -1,0 +1,4140 @@
+[
+ {
+  "seq": 1,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.4446373,
+  "type": "swarm.created",
+  "data": {
+   "query": "I need an emergency plumber who can come tonight for a burst pipe",
+   "mode": "simulated",
+   "intent": {
+    "raw_query": "I need an emergency plumber who can come tonight for a burst pipe",
+    "item": "an urgent plumber visit",
+    "category": "plumber",
+    "kind": "service",
+    "place_query": "plumber",
+    "urgency": "now",
+    "priority": "balanced",
+    "radius_miles": 10.0,
+    "summary": "Book an urgent plumber visit within 10 miles"
+   },
+   "origin": {
+    "lat": 37.7749,
+    "lng": -122.4194
+   },
+   "targets": [
+    {
+     "id": "t1",
+     "name": "Liberty Plumber",
+     "address": "7089 Cedar Ln",
+     "phone": "+12025550111",
+     "lat": 37.7711,
+     "lng": -122.43707,
+     "distance_miles": 1.0,
+     "open_now": true,
+     "rating": 4.0,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t2",
+     "name": "Trusted Plumber",
+     "address": "5513 Cedar Ln",
+     "phone": "+12025550104",
+     "lat": 37.7625,
+     "lng": -122.40401,
+     "distance_miles": 1.2,
+     "open_now": true,
+     "rating": 4.3,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t3",
+     "name": "Redwood Plumber",
+     "address": "2408 Church St",
+     "phone": "+12025550109",
+     "lat": 37.77665,
+     "lng": -122.38835,
+     "distance_miles": 1.7,
+     "open_now": true,
+     "rating": 3.6,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t4",
+     "name": "Pioneer Plumber",
+     "address": "6641 River Rd",
+     "phone": "+12025550114",
+     "lat": 37.76776,
+     "lng": -122.38581,
+     "distance_miles": 1.9,
+     "open_now": false,
+     "rating": 4.7,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t5",
+     "name": "Precision Plumber",
+     "address": "8263 Oak Ave",
+     "phone": "+12025550116",
+     "lat": 37.79813,
+     "lng": -122.43802,
+     "distance_miles": 1.9,
+     "open_now": true,
+     "rating": 4.0,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t6",
+     "name": "Metro Plumber",
+     "address": "8878 Lakeview Rd",
+     "phone": "+12025550110",
+     "lat": 37.78116,
+     "lng": -122.37804,
+     "distance_miles": 2.3,
+     "open_now": true,
+     "rating": 4.7,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t7",
+     "name": "Summit Plumber",
+     "address": "9593 Park Blvd",
+     "phone": "+12025550117",
+     "lat": 37.80554,
+     "lng": -122.39869,
+     "distance_miles": 2.4,
+     "open_now": true,
+     "rating": 4.2,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t8",
+     "name": "Capital Plumber",
+     "address": "7539 Mill Rd",
+     "phone": "+12025550101",
+     "lat": 37.80594,
+     "lng": -122.45782,
+     "distance_miles": 3.0,
+     "open_now": true,
+     "rating": 4.4,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t9",
+     "name": "Lakeside Plumber",
+     "address": "2124 Main St",
+     "phone": "+12025550115",
+     "lat": 37.82433,
+     "lng": -122.39332,
+     "distance_miles": 3.7,
+     "open_now": true,
+     "rating": 4.5,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t10",
+     "name": "Westview Plumber",
+     "address": "1756 Maple Dr",
+     "phone": "+12025550113",
+     "lat": 37.81227,
+     "lng": -122.47773,
+     "distance_miles": 4.1,
+     "open_now": true,
+     "rating": 4.6,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t11",
+     "name": "Northside Plumber",
+     "address": "9697 Church St",
+     "phone": "+12025550102",
+     "lat": 37.80175,
+     "lng": -122.32458,
+     "distance_miles": 5.5,
+     "open_now": false,
+     "rating": 4.6,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t12",
+     "name": "Blue Ridge Plumber",
+     "address": "5169 Maple Dr",
+     "phone": "+12025550107",
+     "lat": 37.8423,
+     "lng": -122.36242,
+     "distance_miles": 5.6,
+     "open_now": true,
+     "rating": 4.7,
+     "tier": "primary",
+     "source": "mock"
+    },
+    {
+     "id": "t13",
+     "name": "Keystone Plumber",
+     "address": "665 Maple Dr",
+     "phone": "+12025550106",
+     "lat": 37.72178,
+     "lng": -122.33958,
+     "distance_miles": 5.7,
+     "open_now": true,
+     "rating": 3.6,
+     "tier": "backup",
+     "source": "mock"
+    },
+    {
+     "id": "t14",
+     "name": "Evergreen Plumber",
+     "address": "1389 Washington Ave",
+     "phone": "+12025550100",
+     "lat": 37.72146,
+     "lng": -122.32372,
+     "distance_miles": 6.4,
+     "open_now": true,
+     "rating": 4.3,
+     "tier": "backup",
+     "source": "mock"
+    },
+    {
+     "id": "t15",
+     "name": "Eastbrook Plumber",
+     "address": "3604 2nd Ave",
+     "phone": "+12025550108",
+     "lat": 37.80613,
+     "lng": -122.53557,
+     "distance_miles": 6.7,
+     "open_now": true,
+     "rating": 4.2,
+     "tier": "backup",
+     "source": "mock"
+    },
+    {
+     "id": "t16",
+     "name": "Allied Plumber",
+     "address": "8673 Highland Ave",
+     "phone": "+12025550112",
+     "lat": 37.86654,
+     "lng": -122.48596,
+     "distance_miles": 7.3,
+     "open_now": true,
+     "rating": 4.3,
+     "tier": "backup",
+     "source": "mock"
+    },
+    {
+     "id": "t17",
+     "name": "Southgate Plumber",
+     "address": "1192 Main St",
+     "phone": "+12025550105",
+     "lat": 37.79723,
+     "lng": -122.55381,
+     "distance_miles": 7.5,
+     "open_now": true,
+     "rating": 4.5,
+     "tier": "backup",
+     "source": "mock"
+    },
+    {
+     "id": "t18",
+     "name": "Cornerstone Plumber",
+     "address": "3679 River Rd",
+     "phone": "+12025550103",
+     "lat": 37.90846,
+     "lng": -122.39822,
+     "distance_miles": 9.3,
+     "open_now": true,
+     "rating": 4.0,
+     "tier": "backup",
+     "source": "mock"
+    }
+   ]
+  }
+ },
+ {
+  "seq": 2,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.451342,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_e1094a8f",
+   "target_id": "t1",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 3,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.4576445,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_e1094a8f",
+   "target_id": "t1",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 4,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.4606428,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_0b0decb1",
+   "target_id": "t2",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 5,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.46471,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_e1094a8f",
+   "target_id": "t1",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 6,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.4709673,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_0b0decb1",
+   "target_id": "t2",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 7,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.473457,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_e1094a8f",
+   "target_id": "t1",
+   "utterance_id": "c_e1094a8f:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. I'm calling about an urgent plumber visit. Are you able to help with that today?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 8,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.475377,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_8f7b03b1",
+   "target_id": "t3",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 9,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.4792678,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_e1094a8f",
+   "target_id": "t1",
+   "utterance_id": "c_e1094a8f:u2",
+   "speaker": "business",
+   "text": "You've reached Liberty Plumber. We can't",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 10,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.4793859,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_0b0decb1",
+   "target_id": "t2",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 11,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.4830816,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_e1094a8f",
+   "target_id": "t1",
+   "utterance_id": "c_e1094a8f:u2",
+   "speaker": "business",
+   "text": "You've reached Liberty Plumber. We can't take your call right now, please",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 12,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.483138,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_0b0decb1",
+   "target_id": "t2",
+   "utterance_id": "c_0b0decb1:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. I'm calling about an urgent plumber visit. Are you able to help with that today?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 13,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.4887917,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_e1094a8f",
+   "target_id": "t1",
+   "utterance_id": "c_e1094a8f:u2",
+   "speaker": "business",
+   "text": "You've reached Liberty Plumber. We can't take your call right now, please leave a message after the tone.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 14,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.4906256,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_8f7b03b1",
+   "target_id": "t3",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 15,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.4931426,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_964c67d7",
+   "target_id": "t4",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 16,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.496589,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_0b0decb1",
+   "target_id": "t2",
+   "utterance_id": "c_0b0decb1:u2",
+   "speaker": "business",
+   "text": "Sorry, I",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 17,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.4967215,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_0b0decb1",
+   "target_id": "t2",
+   "utterance_id": "c_0b0decb1:u2",
+   "speaker": "business",
+   "text": "Sorry, I don't talk",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 18,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.4967713,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_0b0decb1",
+   "target_id": "t2",
+   "utterance_id": "c_0b0decb1:u2",
+   "speaker": "business",
+   "text": "Sorry, I don't talk to robots. Bye.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 19,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.509598,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_8f7b03b1",
+   "target_id": "t3",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 20,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.511931,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_e1094a8f",
+   "target_id": "t1",
+   "state": "failed",
+   "role": "inquiry",
+   "reason": "Reached voicemail"
+  }
+ },
+ {
+  "seq": 21,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5137415,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_964c67d7",
+   "target_id": "t4",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 22,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5172474,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_0b0decb1",
+   "target_id": "t2",
+   "utterance_id": "c_0b0decb1:u3",
+   "speaker": "agent",
+   "text": "No problem at all, sorry to bother you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 23,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5175562,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d48ab391",
+   "target_id": "t5",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 24,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.521735,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_8f7b03b1",
+   "target_id": "t3",
+   "utterance_id": "c_8f7b03b1:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. I'm calling about an urgent plumber visit. Are you able to help with that today?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 25,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5261545,
+  "type": "swarm.reroute",
+  "data": {
+   "from_call_id": "c_e1094a8f",
+   "from_target_id": "t1",
+   "to_target_id": "t13",
+   "to_call_id": "c_2e7205d0",
+   "kind": "failed",
+   "reason": "Liberty Plumber: Reached voicemail. Trying Keystone Plumber",
+   "new_target": null
+  }
+ },
+ {
+  "seq": 26,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5314722,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_0b0decb1",
+   "target_id": "t2",
+   "utterance_id": "c_0b0decb1:u3",
+   "speaker": "agent",
+   "text": "No problem at all, sorry to bother you.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 27,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5343335,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_964c67d7",
+   "target_id": "t4",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 28,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5364892,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_8f7b03b1",
+   "target_id": "t3",
+   "utterance_id": "c_8f7b03b1:u2",
+   "speaker": "business",
+   "text": "We're booked up tonight, but",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 29,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.536542,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d48ab391",
+   "target_id": "t5",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 30,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5403662,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_865c54e1",
+   "target_id": "t6",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 31,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5455182,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 32,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.551535,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_964c67d7",
+   "target_id": "t4",
+   "utterance_id": "c_964c67d7:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. I'm calling about an urgent plumber visit. Are you able to help with that today?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 33,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5601444,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_8f7b03b1",
+   "target_id": "t3",
+   "utterance_id": "c_8f7b03b1:u2",
+   "speaker": "business",
+   "text": "We're booked up tonight, but we do have an opening",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 34,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5602586,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_0b0decb1",
+   "target_id": "t2",
+   "state": "failed",
+   "role": "inquiry",
+   "reason": "Declined to talk to an AI assistant"
+  }
+ },
+ {
+  "seq": 35,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5650525,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_865c54e1",
+   "target_id": "t6",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 36,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5682676,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_d48ab391",
+   "target_id": "t5",
+   "state": "failed",
+   "role": "inquiry",
+   "reason": "No answer"
+  }
+ },
+ {
+  "seq": 37,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5698764,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 38,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5754676,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_8f7b03b1",
+   "target_id": "t3",
+   "utterance_id": "c_8f7b03b1:u2",
+   "speaker": "business",
+   "text": "We're booked up tonight, but we do have an opening tomorrow at 8 for $112.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 39,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5795121,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_964c67d7",
+   "target_id": "t4",
+   "utterance_id": "c_964c67d7:u2",
+   "speaker": "business",
+   "text": "Sorry, our office is",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 40,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5795672,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 41,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5861447,
+  "type": "swarm.reroute",
+  "data": {
+   "from_call_id": "c_0b0decb1",
+   "from_target_id": "t2",
+   "to_target_id": "t14",
+   "to_call_id": "c_01423a96",
+   "kind": "failed",
+   "reason": "Trusted Plumber: Declined to talk to an AI assistant. Trying Evergreen Plumber",
+   "new_target": null
+  }
+ },
+ {
+  "seq": 42,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5876586,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_865c54e1",
+   "target_id": "t6",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 43,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.591954,
+  "type": "swarm.reroute",
+  "data": {
+   "from_call_id": "c_d48ab391",
+   "from_target_id": "t5",
+   "to_target_id": "t15",
+   "to_call_id": "c_c17f297b",
+   "kind": "failed",
+   "reason": "Precision Plumber: No answer. Trying Eastbrook Plumber",
+   "new_target": null
+  }
+ },
+ {
+  "seq": 44,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5939362,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_964c67d7",
+   "target_id": "t4",
+   "utterance_id": "c_964c67d7:u2",
+   "speaker": "business",
+   "text": "Sorry, our office is closed right now. We open",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 45,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5939906,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 46,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5964549,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 47,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.5982206,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_8f7b03b1",
+   "target_id": "t3",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 48,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6036546,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 49,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6138463,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_01423a96",
+   "target_id": "t14",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 50,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6156104,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_865c54e1",
+   "target_id": "t6",
+   "utterance_id": "c_865c54e1:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. I'm calling about an urgent plumber visit. Are you able to help with that today?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 51,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.617759,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_964c67d7",
+   "target_id": "t4",
+   "utterance_id": "c_964c67d7:u2",
+   "speaker": "business",
+   "text": "Sorry, our office is closed right now. We open at 7 tomorrow morning.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 52,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6216555,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 53,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.625118,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 54,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6271698,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 55,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6305325,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 56,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6321607,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_8f7b03b1",
+   "target_id": "t3",
+   "result": {
+    "available": "partial",
+    "item": "an opening tomorrow at 8",
+    "price": 112.0,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [
+     "an opening tomorrow at 8"
+    ],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": "Does not have exactly an urgent plumber visit; offers an opening tomorrow at 8",
+    "confidence": 0.85,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 57,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6375675,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. I'm calling about an urgent plumber visit. Are you able to help with that today?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 58,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6441543,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_865c54e1",
+   "target_id": "t6",
+   "utterance_id": "c_865c54e1:u2",
+   "speaker": "business",
+   "text": "We're fully booked tonight.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 59,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.644256,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_01423a96",
+   "target_id": "t14",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 60,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6463282,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_964c67d7",
+   "target_id": "t4",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 61,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6488602,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "utterance_id": "c_3c977007:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. I'm calling about an urgent plumber visit. Are you able to help with that today?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 62,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6544604,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 63,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6558957,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 64,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6579397,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_8f7b03b1",
+   "target_id": "t3",
+   "utterance_id": "c_8f7b03b1:u4",
+   "speaker": "agent",
+   "text": "Perfect, thanks so much for checking. Have a good one!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 65,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6614802,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 66,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6635587,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 67,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6666062,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_865c54e1",
+   "target_id": "t6",
+   "utterance_id": "c_865c54e1:u2",
+   "speaker": "business",
+   "text": "We're fully booked tonight. You could try Summit Plumber,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 68,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6667302,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u2",
+   "speaker": "business",
+   "text": "Hang on,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 69,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6667826,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_01423a96",
+   "target_id": "t14",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 70,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6794572,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_964c67d7",
+   "target_id": "t4",
+   "result": {
+    "available": "no",
+    "item": "an urgent plumber visit",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": true,
+    "notes": "Sorry, our office is closed right now.",
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 71,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.682161,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "utterance_id": "c_3c977007:u2",
+   "speaker": "business",
+   "text": "Hold on,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 72,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6821945,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "utterance_id": "c_7b60da3b:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. I'm calling about an urgent plumber visit. Are you able to help with that today?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 73,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6837611,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 74,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6856472,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_865c54e1",
+   "target_id": "t6",
+   "utterance_id": "c_865c54e1:u2",
+   "speaker": "business",
+   "text": "We're fully booked tonight. You could try Summit Plumber, they do emergency calls.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 75,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6879954,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u2",
+   "speaker": "business",
+   "text": "Hang on, let me",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 76,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6880426,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 77,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6933193,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_8f7b03b1",
+   "target_id": "t3",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 78,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6947324,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 79,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6960053,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_01423a96",
+   "target_id": "t14",
+   "utterance_id": "c_01423a96:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. I'm calling about an urgent plumber visit. Are you able to help with that today?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 80,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.6976643,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_6e68e144",
+   "target_id": "t11",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 81,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7010632,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_964c67d7",
+   "target_id": "t4",
+   "utterance_id": "c_964c67d7:u4",
+   "speaker": "agent",
+   "text": "Okay, no worries. Thanks so much for checking. Have a good one!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 82,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7044165,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "utterance_id": "c_3c977007:u2",
+   "speaker": "business",
+   "text": "Hold on, let me",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 83,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7044914,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "utterance_id": "c_7b60da3b:u2",
+   "speaker": "business",
+   "text": "Sure,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 84,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7045593,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. I'm calling about an urgent plumber visit. Are you able to help with that today?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 85,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.711123,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u2",
+   "speaker": "business",
+   "text": "Hang on, let me see who's free.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 86,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.716415,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_865c54e1",
+   "target_id": "t6",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 87,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7185395,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "utterance_id": "c_9775b091:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. I'm calling about an urgent plumber visit. Are you able to help with that today?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 88,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.722672,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "Redwood Plumber doesn't have an urgent plumber visit but offers an opening tomorrow at 8 at $112.00",
+   "source_call_id": "c_8f7b03b1"
+  }
+ },
+ {
+  "seq": 89,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.72443,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_01423a96",
+   "target_id": "t14",
+   "utterance_id": "c_01423a96:u2",
+   "speaker": "business",
+   "text": "Sorry, we're",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 90,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.724471,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 91,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.726103,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "utterance_id": "c_3c977007:u2",
+   "speaker": "business",
+   "text": "Hold on, let me check the schedule.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 92,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.727729,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "utterance_id": "c_7b60da3b:u2",
+   "speaker": "business",
+   "text": "Sure, one",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 93,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7277632,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_6e68e144",
+   "target_id": "t11",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 94,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7294507,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_5e0ced4e",
+   "target_id": "t12",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 95,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7315543,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u2",
+   "speaker": "business",
+   "text": "Hang on,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 96,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7316713,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_964c67d7",
+   "target_id": "t4",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 97,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7355044,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u3",
+   "speaker": "agent",
+   "text": "Yep, no problem.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 98,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7355483,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_865c54e1",
+   "target_id": "t6",
+   "result": {
+    "available": "no",
+    "item": "an urgent plumber visit",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": "Summit Plumber",
+    "referral_phone": null,
+    "closed": null,
+    "notes": "We're fully booked tonight.",
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 99,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7393916,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "utterance_id": "c_9775b091:u2",
+   "speaker": "business",
+   "text": "Hold on,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 100,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7394245,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_01423a96",
+   "target_id": "t14",
+   "utterance_id": "c_01423a96:u2",
+   "speaker": "business",
+   "text": "Sorry, we're fully booked tonight,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 101,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7394483,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "utterance_id": "c_e98e431f:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. I'm calling about an urgent plumber visit. Are you able to help with that today?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 102,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7410734,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "utterance_id": "c_3c977007:u3",
+   "speaker": "agent",
+   "text": "Mm-hm, take your time.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 103,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7411299,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "utterance_id": "c_7b60da3b:u2",
+   "speaker": "business",
+   "text": "Sure, one sec.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 104,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.743079,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u2",
+   "speaker": "business",
+   "text": "Hang on, let me",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 105,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7431135,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_6e68e144",
+   "target_id": "t11",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 106,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7448816,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "Pioneer Plumber is closed, moving open-now businesses to the front of the queue",
+   "source_call_id": "c_964c67d7"
+  }
+ },
+ {
+  "seq": 107,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7469568,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u3",
+   "speaker": "agent",
+   "text": "Yep, no problem.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 108,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7507231,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_5e0ced4e",
+   "target_id": "t12",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 109,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7524214,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_865c54e1",
+   "target_id": "t6",
+   "utterance_id": "c_865c54e1:u4",
+   "speaker": "agent",
+   "text": "Alright, thanks anyway for your time. Take care!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 110,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7542431,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "utterance_id": "c_9775b091:u2",
+   "speaker": "business",
+   "text": "Hold on, let me",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 111,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7543175,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_01423a96",
+   "target_id": "t14",
+   "utterance_id": "c_01423a96:u2",
+   "speaker": "business",
+   "text": "Sorry, we're fully booked tonight, nothing until tomorrow.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 112,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7585788,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "utterance_id": "c_3c977007:u3",
+   "speaker": "agent",
+   "text": "Mm-hm, take your time.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 113,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.763951,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "utterance_id": "c_e98e431f:u2",
+   "speaker": "business",
+   "text": "Hold on,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 114,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7640061,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "utterance_id": "c_7b60da3b:u3",
+   "speaker": "agent",
+   "text": "Sure, no rush.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 115,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7640548,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u2",
+   "speaker": "business",
+   "text": "Hang on, let me see who's free.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 116,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7690334,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_6e68e144",
+   "target_id": "t11",
+   "utterance_id": "c_6e68e144:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. I'm calling about an urgent plumber visit. Are you able to help with that today?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 117,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7706418,
+  "type": "swarm.reroute",
+  "data": {
+   "from_call_id": "c_964c67d7",
+   "from_target_id": "t4",
+   "to_target_id": "t16",
+   "to_call_id": "c_28211fc5",
+   "kind": "closed",
+   "reason": "Pioneer Plumber is closed, redirecting to Allied Plumber",
+   "new_target": null
+  }
+ },
+ {
+  "seq": 118,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7725902,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u4",
+   "speaker": "business",
+   "text": "Still",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 119,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7726443,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "utterance_id": "c_9775b091:u2",
+   "speaker": "business",
+   "text": "Hold on, let me check the schedule.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 120,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.775275,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_5e0ced4e",
+   "target_id": "t12",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 121,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7771041,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_01423a96",
+   "target_id": "t14",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 122,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7789643,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "utterance_id": "c_e98e431f:u2",
+   "speaker": "business",
+   "text": "Hold on, let me",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 123,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7790208,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "utterance_id": "c_3c977007:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we do",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 124,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.779069,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "utterance_id": "c_7b60da3b:u3",
+   "speaker": "agent",
+   "text": "Sure, no rush.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 125,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7827737,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_865c54e1",
+   "target_id": "t6",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 126,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7849035,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u3",
+   "speaker": "agent",
+   "text": "Sure, no rush.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 127,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7849452,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_6e68e144",
+   "target_id": "t11",
+   "utterance_id": "c_6e68e144:u2",
+   "speaker": "business",
+   "text": "Sorry, our office is",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 128,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7849903,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u4",
+   "speaker": "business",
+   "text": "Still checking,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 129,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.785031,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_28211fc5",
+   "target_id": "t16",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 130,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7894506,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "utterance_id": "c_9775b091:u3",
+   "speaker": "agent",
+   "text": "Sure, no rush.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 131,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7895563,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_5e0ced4e",
+   "target_id": "t12",
+   "utterance_id": "c_5e0ced4e:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. I'm calling about an urgent plumber visit. Are you able to help with that today?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 132,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7914119,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "utterance_id": "c_e98e431f:u2",
+   "speaker": "business",
+   "text": "Hold on, let me check the schedule.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 133,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.795017,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "utterance_id": "c_3c977007:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we do have a tech available tonight,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 134,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7950468,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_01423a96",
+   "target_id": "t14",
+   "result": {
+    "available": "no",
+    "item": "an urgent plumber visit",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": "Sorry, we're fully booked tonight, nothing until tomorrow.",
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 135,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7965038,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "utterance_id": "c_7b60da3b:u4",
+   "speaker": "business",
+   "text": "Yes, we do",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 136,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7965317,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u3",
+   "speaker": "agent",
+   "text": "Sure, no rush.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 137,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7978377,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_6e68e144",
+   "target_id": "t11",
+   "utterance_id": "c_6e68e144:u2",
+   "speaker": "business",
+   "text": "Sorry, our office is closed right now. We open",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 138,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7978776,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u4",
+   "speaker": "business",
+   "text": "Still checking, one moment.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 139,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.7992806,
+  "type": "swarm.reroute",
+  "data": {
+   "from_call_id": "c_865c54e1",
+   "from_target_id": "t6",
+   "to_target_id": "t17",
+   "to_call_id": "c_4940a311",
+   "kind": "no_stock",
+   "reason": "Metro Plumber doesn't have it, trying Southgate Plumber",
+   "new_target": null
+  }
+ },
+ {
+  "seq": 140,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8010116,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "utterance_id": "c_9775b091:u3",
+   "speaker": "agent",
+   "text": "Sure, no rush.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 141,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.803461,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_5e0ced4e",
+   "target_id": "t12",
+   "utterance_id": "c_5e0ced4e:u2",
+   "speaker": "business",
+   "text": "Sorry, we're",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 142,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.803495,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_28211fc5",
+   "target_id": "t16",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 143,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.804912,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "utterance_id": "c_e98e431f:u3",
+   "speaker": "agent",
+   "text": "Mm-hm, take your time.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 144,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8051507,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "utterance_id": "c_3c977007:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we do have a tech available tonight, about 60 minutes out.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 145,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8086133,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_01423a96",
+   "target_id": "t14",
+   "utterance_id": "c_01423a96:u4",
+   "speaker": "agent",
+   "text": "Alright, thanks anyway for your time. Take care!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 146,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8102891,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "utterance_id": "c_7b60da3b:u4",
+   "speaker": "business",
+   "text": "Yes, we do have an opening, about",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 147,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8103378,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_6e68e144",
+   "target_id": "t11",
+   "utterance_id": "c_6e68e144:u2",
+   "speaker": "business",
+   "text": "Sorry, our office is closed right now. We open at 7 tomorrow morning.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 148,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8126853,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u4",
+   "speaker": "business",
+   "text": "Still",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 149,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.812748,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u5",
+   "speaker": "agent",
+   "text": "Yep, no problem.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 150,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.812796,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_4940a311",
+   "target_id": "t17",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 151,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.81803,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_5e0ced4e",
+   "target_id": "t12",
+   "utterance_id": "c_5e0ced4e:u2",
+   "speaker": "business",
+   "text": "Sorry, we're fully booked tonight,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 152,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.818153,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "utterance_id": "c_9775b091:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we do",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 153,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8182395,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "utterance_id": "c_e98e431f:u3",
+   "speaker": "agent",
+   "text": "Mm-hm, take your time.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 154,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8249404,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_28211fc5",
+   "target_id": "t16",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 155,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8264992,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "utterance_id": "c_3c977007:u5",
+   "speaker": "agent",
+   "text": "Great, thank you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 156,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.82653,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "utterance_id": "c_7b60da3b:u4",
+   "speaker": "business",
+   "text": "Yes, we do have an opening, about 45 minutes from now.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 157,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8282743,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u4",
+   "speaker": "business",
+   "text": "Still checking,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 158,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8283055,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u5",
+   "speaker": "agent",
+   "text": "Yep, no problem.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 159,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8297362,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_6e68e144",
+   "target_id": "t11",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 160,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8315144,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_5e0ced4e",
+   "target_id": "t12",
+   "utterance_id": "c_5e0ced4e:u2",
+   "speaker": "business",
+   "text": "Sorry, we're fully booked tonight, nothing until tomorrow.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 161,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.835096,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "utterance_id": "c_9775b091:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we do have a tech available tonight,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 162,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8351483,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_01423a96",
+   "target_id": "t14",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 163,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8384933,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_4940a311",
+   "target_id": "t17",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 164,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8419206,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "utterance_id": "c_e98e431f:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we do",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 165,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.84196,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_28211fc5",
+   "target_id": "t16",
+   "utterance_id": "c_28211fc5:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. I'm calling about an urgent plumber visit. Are you able to help with that today?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 166,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.844055,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "utterance_id": "c_3c977007:u5",
+   "speaker": "agent",
+   "text": "Great, thank you. What would the call-out fee be, and roughly how soon could someone get here?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 167,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.844145,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "utterance_id": "c_7b60da3b:u5",
+   "speaker": "agent",
+   "text": "Great, thank you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 168,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8442597,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u4",
+   "speaker": "business",
+   "text": "Still checking, one moment.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 169,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8474567,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u6",
+   "speaker": "business",
+   "text": "Okay, we do",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 170,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8474972,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_6e68e144",
+   "target_id": "t11",
+   "result": {
+    "available": "no",
+    "item": "an urgent plumber visit",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": true,
+    "notes": "Sorry, our office is closed right now.",
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 171,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8520021,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "utterance_id": "c_9775b091:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we do have a tech available tonight, about 30 minutes out.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 172,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8537366,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_5e0ced4e",
+   "target_id": "t12",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 173,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.855451,
+  "type": "swarm.reroute",
+  "data": {
+   "from_call_id": "c_01423a96",
+   "from_target_id": "t14",
+   "to_target_id": "t18",
+   "to_call_id": "c_3910099a",
+   "kind": "no_stock",
+   "reason": "Evergreen Plumber doesn't have it, trying Cornerstone Plumber",
+   "new_target": null
+  }
+ },
+ {
+  "seq": 174,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8588555,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "utterance_id": "c_e98e431f:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we do have a tech available tonight,",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 175,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8589098,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "utterance_id": "c_3c977007:u5",
+   "speaker": "agent",
+   "text": "Great, thank you. What would the call-out fee be, and roughly how soon could someone get here?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 176,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8609705,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_28211fc5",
+   "target_id": "t16",
+   "utterance_id": "c_28211fc5:u2",
+   "speaker": "business",
+   "text": "Sorry, I",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 177,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.86101,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "utterance_id": "c_7b60da3b:u5",
+   "speaker": "agent",
+   "text": "Great, thank you. What would the call-out fee be, and roughly how soon could someone get here?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 178,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8610287,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u5",
+   "speaker": "agent",
+   "text": "Okay, I'll hold.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 179,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8610454,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u6",
+   "speaker": "business",
+   "text": "Okay, we do have someone available, about",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 180,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8610604,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_4940a311",
+   "target_id": "t17",
+   "state": "failed",
+   "role": "inquiry",
+   "reason": "No answer"
+  }
+ },
+ {
+  "seq": 181,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.862397,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_6e68e144",
+   "target_id": "t11",
+   "utterance_id": "c_6e68e144:u4",
+   "speaker": "agent",
+   "text": "Okay, no worries. Thanks so much for checking. Have a good one!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 182,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.863758,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "utterance_id": "c_9775b091:u5",
+   "speaker": "agent",
+   "text": "Great, thank you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 183,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8637974,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_5e0ced4e",
+   "target_id": "t12",
+   "result": {
+    "available": "no",
+    "item": "an urgent plumber visit",
+    "price": null,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": null,
+    "wait_minutes": null,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": "Sorry, we're fully booked tonight, nothing until tomorrow.",
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 184,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8656697,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "utterance_id": "c_e98e431f:u4",
+   "speaker": "business",
+   "text": "Okay, yes, we do have a tech available tonight, about 30 minutes out.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 185,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8684578,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_3910099a",
+   "target_id": "t18",
+   "state": "queued",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 186,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8723912,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "utterance_id": "c_3c977007:u6",
+   "speaker": "business",
+   "text": "The fee is $76, and anything beyond",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 187,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8724883,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_28211fc5",
+   "target_id": "t16",
+   "utterance_id": "c_28211fc5:u2",
+   "speaker": "business",
+   "text": "Sorry, I don't talk",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 188,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8727634,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "utterance_id": "c_7b60da3b:u5",
+   "speaker": "agent",
+   "text": "Great, thank you. What would the call-out fee be, and roughly how soon could someone get here?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 189,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8759518,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u5",
+   "speaker": "agent",
+   "text": "Okay, I'll hold.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 190,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8772354,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u6",
+   "speaker": "business",
+   "text": "Okay, we do have someone available, about 60 minutes away.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 191,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8784404,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "utterance_id": "c_9775b091:u5",
+   "speaker": "agent",
+   "text": "Great, thank you. What would the call-out fee be, and roughly how soon could someone get here?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 192,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8784685,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_5e0ced4e",
+   "target_id": "t12",
+   "utterance_id": "c_5e0ced4e:u4",
+   "speaker": "agent",
+   "text": "Okay, no worries. Thanks so much for checking. Have a good one!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 193,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8797138,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "utterance_id": "c_e98e431f:u5",
+   "speaker": "agent",
+   "text": "Great, thank you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 194,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.879752,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_6e68e144",
+   "target_id": "t11",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 195,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8814766,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "utterance_id": "c_3c977007:u6",
+   "speaker": "business",
+   "text": "The fee is $76, and anything beyond that is quoted on site. I can hold",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 196,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8815286,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_28211fc5",
+   "target_id": "t16",
+   "utterance_id": "c_28211fc5:u2",
+   "speaker": "business",
+   "text": "Sorry, I don't talk to robots. Bye.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 197,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8840327,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_3910099a",
+   "target_id": "t18",
+   "state": "dialing",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 198,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8878276,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "utterance_id": "c_7b60da3b:u6",
+   "speaker": "business",
+   "text": "It's $130. We can't",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 199,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8880813,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u6",
+   "speaker": "business",
+   "text": "Okay, we do",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 200,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8881297,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u7",
+   "speaker": "agent",
+   "text": "Great, thank you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 201,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8881924,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "utterance_id": "c_9775b091:u5",
+   "speaker": "agent",
+   "text": "Great, thank you. What would the call-out fee be, and roughly how soon could someone get here?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 202,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8910854,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "utterance_id": "c_e98e431f:u5",
+   "speaker": "agent",
+   "text": "Great, thank you. What would the call-out fee be, and roughly how soon could someone get here?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 203,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8911269,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "Northside Plumber is closed, moving open-now businesses to the front of the queue",
+   "source_call_id": "c_6e68e144"
+  }
+ },
+ {
+  "seq": 204,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.892425,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "utterance_id": "c_3c977007:u6",
+   "speaker": "business",
+   "text": "The fee is $76, and anything beyond that is quoted on site. I can hold the slot for you if you'd like.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 205,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8944063,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_28211fc5",
+   "target_id": "t16",
+   "utterance_id": "c_28211fc5:u3",
+   "speaker": "agent",
+   "text": "No problem at all, sorry to bother you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 206,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8944533,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_5e0ced4e",
+   "target_id": "t12",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 207,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.897362,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "utterance_id": "c_7b60da3b:u6",
+   "speaker": "business",
+   "text": "It's $130. We can't hold the slot though, it",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 208,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8974073,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u6",
+   "speaker": "business",
+   "text": "Okay, we do have someone available, about",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 209,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8974485,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u7",
+   "speaker": "agent",
+   "text": "Great, thank you. What would the call-out fee be, and roughly how soon could someone get here?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 210,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8974671,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_3910099a",
+   "target_id": "t18",
+   "state": "talking",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 211,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.898708,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "utterance_id": "c_9775b091:u6",
+   "speaker": "business",
+   "text": "The fee is $80, and anything beyond",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 212,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.8987331,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "utterance_id": "c_e98e431f:u5",
+   "speaker": "agent",
+   "text": "Great, thank you. What would the call-out fee be, and roughly how soon could someone get here?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 213,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9001465,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_28211fc5",
+   "target_id": "t16",
+   "utterance_id": "c_28211fc5:u3",
+   "speaker": "agent",
+   "text": "No problem at all, sorry to bother you.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 214,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9014215,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 215,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9030232,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "utterance_id": "c_7b60da3b:u6",
+   "speaker": "business",
+   "text": "It's $130. We can't hold the slot though, it goes to whoever confirms first.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 216,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.907546,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u6",
+   "speaker": "business",
+   "text": "Okay, we do have someone available, about 60 minutes away.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 217,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9139602,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u7",
+   "speaker": "agent",
+   "text": "Great, thank you. What would the call-out fee be, and roughly how soon could someone get here?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 218,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9153259,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3910099a",
+   "target_id": "t18",
+   "utterance_id": "c_3910099a:u1",
+   "speaker": "agent",
+   "text": "Hi there, I'm an AI assistant calling on behalf of a customer. I'm calling about an urgent plumber visit. Are you able to help with that today?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 219,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.916668,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "utterance_id": "c_9775b091:u6",
+   "speaker": "business",
+   "text": "The fee is $80, and anything beyond that is quoted on site. I can hold",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 220,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9167242,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "utterance_id": "c_e98e431f:u6",
+   "speaker": "business",
+   "text": "The fee is $101, and anything beyond",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 221,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9167595,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "result": {
+    "available": "yes",
+    "item": "an urgent plumber visit",
+    "price": 76.0,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": true,
+    "wait_minutes": 60,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": null,
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 222,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9184299,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_28211fc5",
+   "target_id": "t16",
+   "state": "failed",
+   "role": "inquiry",
+   "reason": "Declined to talk to an AI assistant"
+  }
+ },
+ {
+  "seq": 223,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.919879,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 224,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9215622,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u7",
+   "speaker": "agent",
+   "text": "Great, thank you.",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 225,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9216168,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u8",
+   "speaker": "business",
+   "text": "It's $59 and",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 226,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.921665,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "utterance_id": "c_9775b091:u6",
+   "speaker": "business",
+   "text": "The fee is $80, and anything beyond that is quoted on site. I can hold the slot for you if you'd like.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 227,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.925872,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3910099a",
+   "target_id": "t18",
+   "utterance_id": "c_3910099a:u2",
+   "speaker": "business",
+   "text": "You've reached Cornerstone Plumber. We can't",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 228,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.92593,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "utterance_id": "c_e98e431f:u6",
+   "speaker": "business",
+   "text": "The fee is $101, and anything beyond that is quoted on site. I can hold",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 229,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9259768,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "utterance_id": "c_3c977007:u8",
+   "speaker": "agent",
+   "text": "Perfect, thanks so much for checking. Have a good one!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 230,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9294279,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u7",
+   "speaker": "agent",
+   "text": "Great, thank you. What would the call-out fee be, and roughly how soon could someone get here?",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 231,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9294705,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u8",
+   "speaker": "business",
+   "text": "It's $59 and we can hold the",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 232,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.92991,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "result": {
+    "available": "yes",
+    "item": "an urgent plumber visit",
+    "price": 130.0,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": false,
+    "wait_minutes": 45,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": null,
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 233,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9324794,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3910099a",
+   "target_id": "t18",
+   "utterance_id": "c_3910099a:u2",
+   "speaker": "business",
+   "text": "You've reached Cornerstone Plumber. We can't take your call right now, please",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 234,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9325278,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "utterance_id": "c_e98e431f:u6",
+   "speaker": "business",
+   "text": "The fee is $101, and anything beyond that is quoted on site. I can hold the slot for you if you'd like.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 235,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9365666,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 236,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9396029,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u7",
+   "speaker": "agent",
+   "text": "Great, thank you. What would the call-out fee be, and roughly how soon could someone get here?",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 237,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9423718,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u8",
+   "speaker": "business",
+   "text": "It's $59 and we can hold the slot for you.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 238,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9437501,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "utterance_id": "c_7b60da3b:u8",
+   "speaker": "agent",
+   "text": "Great, that's really helpful. Thanks for your time, bye now!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 239,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9463077,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_3910099a",
+   "target_id": "t18",
+   "utterance_id": "c_3910099a:u2",
+   "speaker": "business",
+   "text": "You've reached Cornerstone Plumber. We can't take your call right now, please leave a message after the tone.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 240,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9479458,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_3c977007",
+   "target_id": "t7",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 241,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.950785,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 242,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9566526,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "result": {
+    "available": "yes",
+    "item": "an urgent plumber visit",
+    "price": 80.0,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": true,
+    "wait_minutes": 30,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": null,
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 243,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9623394,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u8",
+   "speaker": "business",
+   "text": "It's $119 and",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 244,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.962369,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 245,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9639502,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "Summit Plumber has it at $76.00, first confirmed match",
+   "source_call_id": "c_3c977007"
+  }
+ },
+ {
+  "seq": 246,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9672065,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_7b60da3b",
+   "target_id": "t8",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 247,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9686668,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_3910099a",
+   "target_id": "t18",
+   "state": "failed",
+   "role": "inquiry",
+   "reason": "Reached voicemail"
+  }
+ },
+ {
+  "seq": 248,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9698775,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "result": {
+    "available": "yes",
+    "item": "an urgent plumber visit",
+    "price": 101.0,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": true,
+    "wait_minutes": 30,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": null,
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 249,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9710476,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "utterance_id": "c_9775b091:u8",
+   "speaker": "agent",
+   "text": "Okay, thank you so much for your help. Take care!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 250,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9722002,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u8",
+   "speaker": "business",
+   "text": "It's $119 and we can hold the",
+   "is_final": false
+  }
+ },
+ {
+  "seq": 251,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9722471,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "result": {
+    "available": "yes",
+    "item": "an urgent plumber visit",
+    "price": 59.0,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": true,
+    "wait_minutes": 60,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": null,
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 252,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9739492,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "utterance_id": "c_e98e431f:u8",
+   "speaker": "agent",
+   "text": "Okay, thank you so much for your help. Take care!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 253,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.976326,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u8",
+   "speaker": "business",
+   "text": "It's $119 and we can hold the slot for you.",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 254,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9800856,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "utterance_id": "c_2e7205d0:u10",
+   "speaker": "agent",
+   "text": "Great, that's really helpful. Thanks for your time, bye now!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 255,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9845312,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_9775b091",
+   "target_id": "t9",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 256,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.988605,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "state": "extracting",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 257,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.990969,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_e98e431f",
+   "target_id": "t10",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 258,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9960384,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_2e7205d0",
+   "target_id": "t13",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 259,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.997069,
+  "type": "call.extracted",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "result": {
+    "available": "yes",
+    "item": "an urgent plumber visit",
+    "price": 119.0,
+    "currency": "USD",
+    "quantity": null,
+    "can_hold": true,
+    "wait_minutes": 60,
+    "alternatives": [],
+    "referral_name": null,
+    "referral_phone": null,
+    "closed": null,
+    "notes": null,
+    "confidence": 0.9,
+    "hours": null,
+    "requirements": null,
+    "needs": [],
+    "perishables_ok": null,
+    "can_pickup": null
+   }
+  }
+ },
+ {
+  "seq": 260,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.998228,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "4 confirmed matches found, no further calls needed",
+   "source_call_id": null
+  }
+ },
+ {
+  "seq": 261,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004826.9995465,
+  "type": "swarm.knowledge",
+  "data": {
+   "note": "New lowest price: $59.00 at Keystone Plumber",
+   "source_call_id": "c_2e7205d0"
+  }
+ },
+ {
+  "seq": 262,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004827.0008447,
+  "type": "call.transcript",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "utterance_id": "c_c17f297b:u10",
+   "speaker": "agent",
+   "text": "Great, that's really helpful. Thanks for your time, bye now!",
+   "is_final": true
+  }
+ },
+ {
+  "seq": 263,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004827.0062375,
+  "type": "call.state",
+  "data": {
+   "call_id": "c_c17f297b",
+   "target_id": "t15",
+   "state": "completed",
+   "role": "inquiry",
+   "reason": null
+  }
+ },
+ {
+  "seq": 264,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004827.0077176,
+  "type": "swarm.ranked",
+  "data": {
+   "rankings": [
+    {
+     "call_id": "c_9775b091",
+     "target_id": "t9",
+     "rank": 1,
+     "score": 0.844,
+     "reasons": [
+      "Available",
+      "$80.00",
+      "3.7 mi away",
+      "~30 min",
+      "Can hold for you"
+     ]
+    },
+    {
+     "call_id": "c_3c977007",
+     "target_id": "t7",
+     "rank": 2,
+     "score": 0.808,
+     "reasons": [
+      "Available",
+      "$76.00",
+      "2.4 mi away",
+      "~60 min",
+      "Can hold for you"
+     ]
+    },
+    {
+     "call_id": "c_e98e431f",
+     "target_id": "t10",
+     "rank": 3,
+     "score": 0.77,
+     "reasons": [
+      "Available",
+      "$101.00",
+      "4.1 mi away",
+      "~30 min",
+      "Can hold for you"
+     ]
+    },
+    {
+     "call_id": "c_2e7205d0",
+     "target_id": "t13",
+     "rank": 4,
+     "score": 0.725,
+     "reasons": [
+      "Available",
+      "$59.00 (lowest price)",
+      "5.7 mi away",
+      "~60 min",
+      "Can hold for you"
+     ]
+    },
+    {
+     "call_id": "c_7b60da3b",
+     "target_id": "t8",
+     "rank": 5,
+     "score": 0.586,
+     "reasons": [
+      "Available",
+      "$130.00",
+      "3 mi away",
+      "~45 min"
+     ]
+    },
+    {
+     "call_id": "c_c17f297b",
+     "target_id": "t15",
+     "rank": 6,
+     "score": 0.52,
+     "reasons": [
+      "Available",
+      "$119.00",
+      "6.7 mi away",
+      "~60 min",
+      "Can hold for you"
+     ]
+    },
+    {
+     "call_id": "c_8f7b03b1",
+     "target_id": "t3",
+     "rank": 7,
+     "score": 0.515,
+     "reasons": [
+      "Close substitute available",
+      "$112.00",
+      "1.7 mi away"
+     ]
+    }
+   ],
+   "best_call_id": "c_9775b091",
+   "criteria": "Balanced: availability, price, distance, wait time and hold-ability"
+  }
+ },
+ {
+  "seq": 265,
+  "swarm_id": "s_5535814459",
+  "ts": 1794004827.009106,
+  "type": "swarm.completed",
+  "data": {
+   "status": "completed",
+   "calls_made": 18,
+   "calls_completed": 12,
+   "calls_failed": 6,
+   "positives": 6,
+   "elapsed_s": 0.6,
+   "error": null
+  }
+ }
+]
