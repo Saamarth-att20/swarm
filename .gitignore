@@ -1,8 +1,14 @@
 node_modules/
 .next/
 __pycache__/
-*.pyc
 .venv/
-swarmdial.db*
-tsconfig.tsbuildinfo
+*.db
+*.db-*
+.env
+.pytest_cache/
+*.tsbuildinfo
+next-env.d.ts
+
 .env.local
+.env.*.local
+!.env.example
