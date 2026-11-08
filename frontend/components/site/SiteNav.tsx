@@ -1,38 +1,54 @@
 "use client";
 
+import Link from "next/link";
+import { useState } from "react";
+import { Icon } from "@/components/design/Icon";
+import { SdButtonLink } from "@/components/design/SdButton";
 import { Logo } from "@/components/site/Logo";
-import { ButtonLink, Button } from "@/components/ui/button";
 import { useSession } from "@/lib/useSession";
 
-/** Top bar for every page outside a running swarm. Shows Sign in / Get started, or the account once signed in. */
+/** Top bar for every page outside a running swarm. Shows Sign in / Get started, or the account once signed in (Auth0). */
 export function SiteNav({ current }: { current?: "home" | "app" }) {
   const user = useSession();
+  const [open, setOpen] = useState(false);
 
   return (
-    <header className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-4 sm:px-6">
+    <header className={`header ${current === "app" ? "app-header" : ""}`}>
       <Logo />
-      <nav aria-label="Account" className="flex items-center gap-1.5 sm:gap-2">
+      <button
+        type="button"
+        className="mobile-menu"
+        aria-label="Toggle navigation"
+        aria-expanded={open}
+        onClick={() => setOpen(!open)}
+      >
+        <Icon name={open ? "close" : "menu"} />
+      </button>
+      <nav aria-label="Account" className={open ? "open" : ""}>
         {user === undefined ? (
-          <span className="h-8 w-24" aria-hidden />
+          <span aria-hidden style={{ width: 96, height: 32 }} />
         ) : user ? (
           <>
-            <span className="mr-1 hidden text-sm text-ink-soft sm:inline" title={user.email}>{user.name}</span>
-            {current !== "app" && <ButtonLink href="/app" size="sm">Open the app</ButtonLink>}
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={() => {
-                const returnTo = encodeURIComponent(window.location.origin);
-                window.location.assign(`/auth/logout?returnTo=${returnTo}`);
-              }}
-            >
+            {current !== "app" && <SdButtonLink href="/app">Open the app</SdButtonLink>}
+            {current === "app" && (
+              <Link href="/app" className="nav-link active">
+                New search
+              </Link>
+            )}
+            {/* A plain link, not next/link: Auth0 ends the session on its own server and sends the person back */}
+            <a href="/auth/logout" className="nav-link">
               Sign out
-            </Button>
+            </a>
+            <span className="avatar" title={user.email} aria-label={user.name}>
+              {(user.name.trim()[0] ?? "?").toUpperCase()}
+            </span>
           </>
         ) : (
           <>
-            <ButtonLink href="/signin" variant="ghost" size="sm">Sign in</ButtonLink>
-            <ButtonLink href="/signup" size="sm">Get started</ButtonLink>
+            <Link href="/signin" className="nav-link">
+              Sign in
+            </Link>
+            <SdButtonLink href="/signup">Get started</SdButtonLink>
           </>
         )}
       </nav>

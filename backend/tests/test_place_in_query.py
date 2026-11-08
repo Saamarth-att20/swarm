@@ -41,7 +41,7 @@ def test_trips_and_bare_abbreviations_name_a_place():
 async def test_a_named_place_that_cannot_be_found_never_falls_back_to_the_users_city():
     import pytest
 
-    from app.commander import PlaceNotFound
+    from app.commander import LiveModeUnavailable, PlaceNotFound
 
     class Places:
         async def geocode(self, text):
@@ -72,6 +72,14 @@ async def test_the_model_can_find_a_place_the_rules_missed_but_only_if_it_is_rea
     assert (await cmd._named_place(req))[0].lat == 34.05
     cmd.llm = Llm({"mention": "Paris", "place": "Paris, France"})   # invented: not in the request
     assert await cmd._named_place(CreateSwarmRequest(query="find a CVS with Tylenol", lat=37.2, lng=-80.4)) is None
+
+
+def test_near_me_means_the_users_location_not_a_place_called_me():
+    assert extract_place("Where can I get groceries today near me?") is None
+    assert extract_place("Where can I get free groceries today near me?") is None
+    assert extract_place("pharmacy around here with amoxicillin") is None
+    assert extract_place("a plumber close to us tonight") is None
+    assert extract_place("a plumber near me in Austin, TX") == "Austin, TX"   # a real place still wins
 
 
 def test_default_number_of_calls_is_ten():

@@ -1,4 +1,4 @@
-@import "@fontsource-variable/bricolage-grotesque";
+@import "@fontsource-variable/bricolage-grotesque/opsz.css";
 @import "@fontsource-variable/public-sans";
 @tailwind base;
 @tailwind components;

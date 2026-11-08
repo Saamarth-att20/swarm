@@ -13,19 +13,20 @@ const TONE: Record<string, string> = {
   backup: "text-talking",
 };
 
+/** What the Commander decided (reroutes) and what the callers learned along the way, newest first. */
 export function CommanderLog({ swarm }: { swarm: SwarmView }) {
   const items = [...swarm.log].reverse();
   return (
-    <section className="rounded-panel border border-line bg-card" aria-label="Commander activity">
-      <header className="border-b border-line px-4 py-3">
-        <h2 className="font-display text-lg font-semibold">Commander</h2>
-        <p className="text-xs text-ink-soft">Reroutes and what the agents have learned so far.</p>
-      </header>
-      <ul className="scroll-quiet max-h-[300px] divide-y divide-line overflow-y-auto" aria-live="polite">
-        {items.length === 0 && <li className="px-4 py-6 text-center text-sm text-ink-faint">Nothing to coordinate yet.</li>}
+    <section className="panel" aria-label="Commander activity">
+      <div className="section-row">
+        <h2>Commander</h2>
+      </div>
+      <p className="panel-note">Reroutes and what the agents have learned so far.</p>
+      <ul className="log-list scroll-quiet" aria-live="polite">
+        {items.length === 0 && <li className="log-empty">Nothing to coordinate yet.</li>}
         <AnimatePresence initial={false}>
           {items.map((item) => (
-            <motion.li key={item.seq} initial={{ opacity: 0, backgroundColor: "#F2C94C33" }} animate={{ opacity: 1, backgroundColor: "#F2C94C00" }} transition={{ duration: 1.2 }} className="flex gap-2.5 px-4 py-2.5 text-[13px] leading-snug">
+            <motion.li key={item.seq} initial={{ opacity: 0, backgroundColor: "#F2C94C33" }} animate={{ opacity: 1, backgroundColor: "#F2C94C00" }} transition={{ duration: 1.2 }}>
               {item.kind === "reroute" ? (
                 <CornerUpRight className={cn("mt-0.5 h-4 w-4 shrink-0", TONE[item.tone])} aria-label="Rerouted" />
               ) : (

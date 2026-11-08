@@ -11,14 +11,9 @@ export default function AppHome() {
     <>
       <SiteNav current="app" />
       <RequireAuth>
-        <main className="mx-auto max-w-2xl px-4 pb-16 pt-8 sm:px-6 sm:pt-14">
+        <main className="app-shell route-view">
           <AppHeading />
-          <p className="mt-4 max-w-[52ch] text-lg leading-relaxed text-ink-soft">
-            Describe it and AI callers will phone local businesses at the same time, ask what is in stock right now, and tell you who actually has it.
-          </p>
-          <div className="mt-8">
-            <QueryForm />
-          </div>
+          <QueryForm />
           <RecentSwarms />
         </main>
       </RequireAuth>

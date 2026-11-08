@@ -105,7 +105,9 @@ _PLACE_STOP = re.compile(
     r"while|where|until|monday|tuesday|wednesday|thursday|friday|saturday|sunday)\b", re.I)
 _NOT_PLACES = {"stock", "the", "a", "an", "my", "your", "this", "that", "time", "case", "need", "person", "store",
                "advance", "general", "particular", "bulk", "cash", "full", "total", "few", "about", "less", "under",
-               "half", "one", "two", "three", "ten", "fifteen", "twenty", "thirty", "some", "any", "every"}
+               "half", "one", "two", "three", "ten", "fifteen", "twenty", "thirty", "some", "any", "every",
+               # "near me", "around here", "close to us": the user's own location, not a place to look up
+               "me", "here", "us", "you", "there", "myself", "home", "anywhere", "nearby"}
 
 
 # Trips and moves: "I'm going to LA next week", "visiting Austin", "flying to Denver on Friday".

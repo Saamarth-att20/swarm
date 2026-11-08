@@ -1,27 +1,32 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { CheckCircle2, Loader2, Phone, Star, XCircle } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Icon } from "@/components/design/Icon";
+import { bestSoFar, directionsHref, telHref } from "@/lib/callDisplay";
 import { copyFor, isRescue } from "@/lib/copy";
 import { availabilityLabel, miles, money, resultLine, waitLabel } from "@/lib/format";
 import type { SwarmView } from "@/lib/types";
 
+/** The answer. While calls are still running it shows the best one so far; once finished, the ranked winner with Reserve. */
 export function WinnerCard({ swarm, onReserve }: { swarm: SwarmView; onReserve: (callId: string) => void }) {
-  if (!swarm.completed) return null;
   const copy = copyFor(swarm.intent);
   const rescue = isRescue(swarm.intent);
-  const bestId = swarm.ranked?.bestCallId;
-  const call = bestId ? swarm.calls[bestId] : null;
+  const done = Boolean(swarm.completed);
+  const call = done ? (swarm.ranked?.bestCallId ? swarm.calls[swarm.ranked.bestCallId] : null) : bestSoFar(swarm);
+
+  if (!done && !call) return null;
 
   if (!call || !call.result) {
+    const stopped = swarm.completed?.status === "cancelled";
     return (
-      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="rounded-panel border border-line bg-card p-5">
-        <h2 className="font-display text-xl font-semibold">{swarm.completed.status === "cancelled" ? "Swarm stopped" : copy.noWinnerTitle}</h2>
-        <p className="mt-1 max-w-prose text-sm text-ink-soft">
-          {swarm.completed.status === "cancelled" ? "You stopped the swarm before a best match was found." : copy.noWinnerBody(swarm.completed.calls_made)}
-        </p>
-      </motion.div>
+      <section className="winner-card empty" aria-label="Result">
+        <span className="winner-mark muted">
+          <Icon name="close" size={22} />
+        </span>
+        <div className="winner-copy">
+          <h2>{stopped ? "Swarm stopped" : copy.noWinnerTitle}</h2>
+          <p>{stopped ? "You stopped the swarm before a best match was found." : copy.noWinnerBody(swarm.completed?.calls_made ?? 0)}</p>
+        </div>
+      </section>
     );
   }
 
@@ -32,41 +37,54 @@ export function WinnerCard({ swarm, onReserve }: { swarm: SwarmView; onReserve: 
   const detail = rescue
     ? `${availabilityLabel(r, kind)} · ${copy.whenValue(r.wait_minutes).replace(/^~/, "in ~")} · ${r.perishables_ok ? "takes fresh food · " : ""}${miles(target.distance_miles)} away`
     : `${availabilityLabel(r, kind)} · ${money(r.price)} · ${kind === "product" ? (r.quantity != null ? `${r.quantity} in stock` : "in stock") : `arrives in ${waitLabel(r.wait_minutes)}`} · ${miles(target.distance_miles)} away`;
+  const reasons = done && !rescue ? swarm.ranked?.rankings.find((x) => x.call_id === call.callId)?.reasons.join(". ") : "";
+  const where = [target.phone, target.address, r.hours].filter(Boolean).join(" · ");
+  const label = done ? copy.bestTitle : `${copy.bestTitle} so far`;
 
   return (
-    <motion.section initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ type: "spring", stiffness: 140, damping: 18 }} className="overflow-hidden rounded-panel border-2 border-best bg-[#FBF2CC]" aria-label={copy.bestTitle}>
-      <div className="flex flex-wrap items-center justify-between gap-4 p-5">
-        <div className="min-w-0">
-          <div className="flex items-center gap-2 text-sm font-medium text-[#7A5D0A]">
-            <Star className="h-4 w-4 fill-best" aria-hidden /> {copy.bestTitle}
-          </div>
-          <h2 className="mt-1 font-display text-3xl font-semibold leading-tight">{target.name}</h2>
-          <p className="mt-1 text-sm text-ink-soft">{detail}</p>
-          {swarm.ranked && !rescue && <p className="mt-2 text-sm">{swarm.ranked.rankings.find((x) => x.call_id === call.callId)?.reasons.join(". ")}</p>}
-          {target.phone && (
-            <p className="mt-2 flex items-center gap-1.5 text-sm text-ink-soft">
-              <Phone className="h-3.5 w-3.5" aria-hidden /> {target.phone}
-              {target.address ? ` · ${target.address}` : ""}
-            </p>
-          )}
-        </div>
-        <div className="flex flex-col items-start gap-2 sm:items-end">
-          {reserved ? (
-            <div className={`flex items-center gap-2 text-sm font-medium ${reserved.success ? "text-done" : "text-failed"}`}>
-              {reserved.success ? <CheckCircle2 className="h-5 w-5" aria-hidden /> : <XCircle className="h-5 w-5" aria-hidden />}
-              {reserved.success ? copy.reservedOk : copy.reservedFail}
-            </div>
-          ) : (
-            <Button onClick={() => onReserve(call.callId)} disabled={swarm.reserving !== null}>
-              {swarm.reserving ? <Loader2 className="h-4 w-4 animate-spin" aria-hidden /> : null}
-              {swarm.reserving ? copy.reserving : copy.reserve}
-            </Button>
-          )}
-          {reserved?.confirmation && <p className="text-sm">Confirmation: <span className="font-semibold tabular">{reserved.confirmation}</span></p>}
-        </div>
+    <section className="winner-card" aria-label={label}>
+      <span className="winner-mark">
+        <Icon name="check" size={24} />
+      </span>
+      <div className="winner-copy">
+        <span className="best-label">{label}</span>
+        <h2>{target.name}</h2>
+        <p>{detail}</p>
+        {reasons && <p className="winner-reasons">{reasons}</p>}
+        {where && <span className="winner-meta">{where}</span>}
       </div>
-      {reserved && <p className="border-t border-best/60 bg-white/40 px-5 py-2.5 text-sm">{reserved.message}</p>}
+      <div className="winner-actions">
+        {reserved ? (
+          <span className={`winner-reserved ${reserved.success ? "ok" : "fail"}`}>
+            <Icon name={reserved.success ? "check" : "close"} size={18} />
+            {reserved.success ? copy.reservedOk : copy.reservedFail}
+          </span>
+        ) : (
+          done && (
+            <button type="button" className="btn dark" onClick={() => onReserve(call.callId)} disabled={swarm.reserving !== null}>
+              {swarm.reserving ? <span className="spinner" /> : null}
+              <span>{swarm.reserving ? copy.reserving : copy.reserve}</span>
+            </button>
+          )
+        )}
+        {target.phone && (
+          <a className="btn secondary" href={telHref(target.phone)}>
+            <span>Call them</span>
+            <Icon name="phone" size={17} />
+          </a>
+        )}
+        <a className="btn secondary" href={directionsHref(target.lat, target.lng)} target="_blank" rel="noopener noreferrer">
+          <span>Get directions</span>
+          <Icon name="route" size={17} />
+        </a>
+      </div>
+      {reserved?.confirmation && (
+        <p className="winner-note">
+          Confirmation: <strong>{reserved.confirmation}</strong>
+        </p>
+      )}
+      {reserved && <p className="winner-note">{reserved.message}</p>}
       {!reserved && <p className="sr-only">{resultLine(r, kind)}</p>}
-    </motion.section>
+    </section>
   );
 }
