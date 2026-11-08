@@ -135,4 +135,4 @@ The Pydantic models in `backend/app/contract.py` are the single source of truth 
 
 ## Built by
 
-Saamarth Attray and Jaswant, for a hackathon.
+Saamarth Attray and Jaswant Pelluru.
