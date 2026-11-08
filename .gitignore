@@ -5,3 +5,4 @@ __pycache__/
 .venv/
 swarmdial.db*
 tsconfig.tsbuildinfo
+.env.local
