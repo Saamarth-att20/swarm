@@ -1,15 +1,12 @@
 "use client";
 
-import { useRouter } from "next/navigation";
 import { Logo } from "@/components/site/Logo";
 import { ButtonLink, Button } from "@/components/ui/button";
-import { signOut } from "@/lib/auth";
 import { useSession } from "@/lib/useSession";
 
 /** Top bar for every page outside a running swarm. Shows Sign in / Get started, or the account once signed in. */
 export function SiteNav({ current }: { current?: "home" | "app" }) {
   const user = useSession();
-  const router = useRouter();
 
   return (
     <header className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-4 sm:px-6">
@@ -24,9 +21,9 @@ export function SiteNav({ current }: { current?: "home" | "app" }) {
             <Button
               variant="ghost"
               size="sm"
-              onClick={async () => {
-                await signOut();
-                router.push("/");
+              onClick={() => {
+                const returnTo = encodeURIComponent(window.location.origin);
+                window.location.assign(`/auth/logout?returnTo=${returnTo}`);
               }}
             >
               Sign out
